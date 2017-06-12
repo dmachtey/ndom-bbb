@@ -5,6 +5,7 @@
 * Contact information
   - Damian Machtey
   - dmachtey at gmail com
+  -
 
 * License
-  The code and hardware is being released under CC-BY-SA
+  Hardware is being released under CC-BY-SA

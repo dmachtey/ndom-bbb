@@ -1,0 +1,2424 @@
+EESchema Schematic File Version 2
+LIBS:valves
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:domcape-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "Base Board"
+Date "2015-08-06"
+Rev ""
+Comp "Damian Machtey"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X04 Px0
+U 1 1 591B8518
+P 900 10850
+F 0 "Px0" H 925 11101 50  0000 C CNN
+F 1 "Ph-1770979" H 925 10601 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr" H 925 9651 50  0000 C CNN
+F 3 "" H 900 9651 50  0000 C CNN
+	1    900  10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X04 Px1
+U 1 1 591B9399
+P 1500 10850
+F 0 "Px1" H 1500 11101 50  0000 C CNN
+F 1 "Ph-1770979" H 1500 10601 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr" H 1500 9651 50  0000 C CNN
+F 3 "" H 1500 9651 50  0000 C CNN
+	1    1500 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X04 Px2
+U 1 1 591B93F7
+P 2150 10850
+F 0 "Px2" H 2150 11101 50  0000 C CNN
+F 1 "Ph-1770979" H 2150 10601 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr" H 2150 9651 50  0000 C CNN
+F 3 "" H 2150 9651 50  0000 C CNN
+	1    2150 10850
+	1    0    0    -1  
+$EndComp
+Text Label 2800 850  2    60   ~ 0
+GPIO1_6
+Text Label 3300 850  0    60   ~ 0
+GPIO1_7
+Text Label 2800 950  2    60   ~ 0
+GPIO1_2
+Text Label 3300 950  0    60   ~ 0
+GPIO1_3
+Text Label 2800 1050 2    60   ~ 0
+GPIO2_2
+Text Label 3300 1050 0    60   ~ 0
+GPIO2_3
+Text Label 2800 1150 2    60   ~ 0
+GPIO2_5
+Text Label 3300 1150 0    60   ~ 0
+GPIO2_4
+Text Label 2800 1250 2    60   ~ 0
+GPIO1_13
+Text Label 3300 1250 0    60   ~ 0
+GPIO1_12
+Text Label 2800 1350 2    60   ~ 0
+GPIO0_23
+Text Label 3300 1350 0    60   ~ 0
+GPIO0_26
+Text Label 2800 1450 2    60   ~ 0
+GPIO1_15
+Text Label 3300 1450 0    60   ~ 0
+GPIO1_14
+Text Label 2800 1550 2    60   ~ 0
+GPIO0_27
+Text Label 3300 1550 0    60   ~ 0
+GPIO2_1
+Text Label 2800 1650 2    60   ~ 0
+GPIO0_22
+Text Label 3300 1650 0    60   ~ 0
+GPIO1_31
+Text Label 2800 1750 2    60   ~ 0
+GPIO1_30
+Text Label 3300 1750 0    60   ~ 0
+GPIO1_5
+Text Label 2800 1850 2    60   ~ 0
+GPIO1_4
+Text Label 3300 1850 0    60   ~ 0
+GPIO1_1
+Text Label 2800 1950 2    60   ~ 0
+GPIO1_0
+Text Label 3300 1950 0    60   ~ 0
+GPIO1_29
+Text Label 2800 2050 2    60   ~ 0
+GPIO2_22
+Text Label 3300 2050 0    60   ~ 0
+GPIO2_24
+Text Label 2800 2150 2    60   ~ 0
+GPIO2_23
+Text Label 3300 2150 0    60   ~ 0
+GPIO2_25
+Text Label 2800 2250 2    60   ~ 0
+GPIO0_10
+Text Label 3300 2250 0    60   ~ 0
+GPIO0_11
+Text Label 2800 2350 2    60   ~ 0
+GPIO0_9
+Text Label 3300 2350 0    60   ~ 0
+GPIO2_17
+Text Label 2800 2450 2    60   ~ 0
+GPIO0_8
+Text Label 3300 2450 0    60   ~ 0
+GPIO2_16
+Text Label 2800 2550 2    60   ~ 0
+GPIO2_14
+Text Label 3300 2550 0    60   ~ 0
+GPIO2_15
+Text Label 2800 2650 2    60   ~ 0
+GPIO2_12
+Text Label 3300 2650 0    60   ~ 0
+GPIO2_13
+Text Label 2800 2750 2    60   ~ 0
+GPIO2_10
+Text Label 3300 2750 0    60   ~ 0
+GPIO2_11
+Text Label 2800 750  2    60   ~ 0
+GND2
+Text Label 3300 750  0    60   ~ 0
+GND2
+Text Label 1100 750  2    60   ~ 0
+GND1
+Text Label 1600 750  0    60   ~ 0
+GND1
+Text Label 1100 850  2    60   ~ 0
+DC_3.3Ve
+Text Label 1600 850  0    60   ~ 0
+DC_3.3Ve
+Text Label 1100 950  2    60   ~ 0
+VDD_5V
+Text Label 1600 950  0    60   ~ 0
+VDD_5V
+Text Label 1100 1050 2    60   ~ 0
+SYS_5V
+Text Label 1600 1050 0    60   ~ 0
+SYS_5V
+Text Label 1100 1150 2    60   ~ 0
+PWR_BUT
+Text Label 1600 1150 0    60   ~ 0
+SYS_RESETn
+Text Label 1100 1250 2    60   ~ 0
+GPIO0_30
+Text Label 1600 1250 0    60   ~ 0
+GPIO1_28
+Text Label 1100 1350 2    60   ~ 0
+GPIO0_31
+Text Label 1600 1350 0    60   ~ 0
+GPIO1_18
+Text Label 1100 1450 2    60   ~ 0
+GPIO1_16
+Text Label 1600 1450 0    60   ~ 0
+GPIO1_19
+Text Label 1100 1550 2    60   ~ 0
+GPIO0_5
+Text Label 1600 1550 0    60   ~ 0
+GPIO0_4
+Text Label 1100 1650 2    60   ~ 0
+I2C2_SCL
+Text Label 1600 1650 0    60   ~ 0
+I2C2_SDA
+Text Label 1100 1750 2    60   ~ 0
+GPIO0_3
+Text Label 1600 1750 0    60   ~ 0
+GPIO0_2
+Text Label 1100 1850 2    60   ~ 0
+GPIO1_17
+Text Label 1600 1850 0    60   ~ 0
+GPIO0_15
+Text Label 1100 1950 2    60   ~ 0
+GPIO3_21
+Text Label 1600 1950 0    60   ~ 0
+GPIO0_14
+Text Label 1100 2050 2    60   ~ 0
+GPIO3_19
+Text Label 1600 2050 0    60   ~ 0
+GPIO3_17
+Text Label 1100 2150 2    60   ~ 0
+GPIO3_15
+Text Label 1600 2150 0    60   ~ 0
+GPIO3_16
+Text Label 1100 2250 2    60   ~ 0
+GPIO3_14
+Text Label 1600 2250 0    60   ~ 0
+VADC
+Text Label 1100 2350 2    60   ~ 0
+AIN4
+Text Label 1600 2350 0    60   ~ 0
+AGND
+Text Label 1100 2450 2    60   ~ 0
+AIN6
+Text Label 1600 2450 0    60   ~ 0
+AIN5
+Text Label 1100 2550 2    60   ~ 0
+AIN2
+Text Label 1600 2550 0    60   ~ 0
+AIN3
+Text Label 1100 2650 2    60   ~ 0
+AIN0
+Text Label 1600 2650 0    60   ~ 0
+AIN1
+Text Label 1100 2750 2    60   ~ 0
+GPIO0_20
+Text Label 1600 2750 0    60   ~ 0
+GPIO0_7
+Text Label 2800 2850 2    60   ~ 0
+GPIO2_8
+Text Label 2800 2950 2    60   ~ 0
+GPIO2_6
+Text Label 3300 2850 0    60   ~ 0
+GPIO2_9
+Text Label 3300 2950 0    60   ~ 0
+GPIO2_7
+Text Label 1100 2850 2    60   ~ 0
+GND3
+Text Label 1100 2950 2    60   ~ 0
+GND3
+Text Label 1600 2850 0    60   ~ 0
+GND3
+Text Label 1600 2950 0    60   ~ 0
+GND3
+$Comp
+L BeagleBone_Black_Header P9
+U 1 1 591E2E5C
+P 1350 1850
+F 0 "P9" H 1350 3050 50  0000 C CNN
+F 1 "BeagleBone_Black_Header, SH-46P-8.5/0.0/10.5" V 1350 1850 50  0000 C CNN
+F 2 "" H 1350 1000 60  0000 C CNN
+F 3 "" H 1350 1000 60  0000 C CNN
+	1    1350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BeagleBone_Black_Header P8
+U 1 1 591E2F05
+P 3050 1850
+F 0 "P8" H 3050 3050 50  0000 C CNN
+F 1 "BeagleBone_Black_Header, SH-46P-8.5/0.0/10.5" V 3050 1850 50  0000 C CNN
+F 2 "" H 3050 1000 60  0000 C CNN
+F 3 "" H 3050 1000 60  0000 C CNN
+	1    3050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X08 Po0
+U 1 1 591E8FDA
+P 6150 1400
+F 0 "Po0" H 6150 1850 50  0000 C CNN
+F 1 "Phoenix-1771017" V 6150 1400 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 6150 200 50  0000 C CNN
+F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 6150 200 50  0000 C CNN
+	1    6150 1400
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_02X08 Po4
+U 1 1 591E923D
+P 11750 1400
+F 0 "Po4" H 11750 1850 50  0000 C CNN
+F 1 "Phoenix-1771017" V 11750 1400 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 11750 200 50  0000 C CNN
+F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 11750 200 50  0000 C CNN
+	1    11750 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X08 Po1
+U 1 1 591E974C
+P 6150 2500
+F 0 "Po1" H 6150 2950 50  0000 C CNN
+F 1 "Phoenix-1771017" V 6150 2500 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 6150 1300 50  0000 C CNN
+F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 6150 1300 50  0000 C CNN
+	1    6150 2500
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_02X08 Po2
+U 1 1 591E97D3
+P 8700 1400
+F 0 "Po2" H 8700 1850 50  0000 C CNN
+F 1 "Phoenix-1771017" V 8700 1400 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 8700 200 50  0000 C CNN
+F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 8700 200 50  0000 C CNN
+	1    8700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X08 Po3
+U 1 1 591E9899
+P 8700 2500
+F 0 "Po3" H 8700 2950 50  0000 C CNN
+F 1 "Phoenix-1771017" V 8700 2500 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 8700 1300 50  0000 C CNN
+F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 8700 1300 50  0000 C CNN
+	1    8700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X08 Po5
+U 1 1 591E9998
+P 11750 2500
+F 0 "Po5" H 11750 2950 50  0000 C CNN
+F 1 "Phoenix-1771017" V 11750 2500 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 11750 1300 50  0000 C CNN
+F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 11750 1300 50  0000 C CNN
+	1    11750 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X08 Po6
+U 1 1 591E9AF6
+P 14850 1400
+F 0 "Po6" H 14850 1850 50  0000 C CNN
+F 1 "Phoenix-1771017" V 14850 1400 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 14850 200 50  0000 C CNN
+F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 14850 200 50  0000 C CNN
+	1    14850 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_02X08 Po7
+U 1 1 591E9C11
+P 14850 2550
+F 0 "Po7" H 14850 3000 50  0000 C CNN
+F 1 "Phoenix-1771017" V 14850 2550 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 14850 1350 50  0000 C CNN
+F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 14850 1350 50  0000 C CNN
+	1    14850 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L TLP291-4 U100
+U 1 1 591F00A3
+P 2350 4250
+F 0 "U100" H 2150 4450 50  0000 L CNN
+F 1 "TLP291-4" H 2350 4450 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 2150 4050 50  0000 L CIN
+F 3 "http://www.mouser.com/ds/2/408/TLP291-4-204553.pdf" H 2350 4250 50  0000 L CNN
+	1    2350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U100
+U 2 1 591F83F1
+P 2350 4700
+F 0 "U100" H 2150 4900 50  0000 L CNN
+F 1 "TLP291-4" H 2350 4900 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 2150 4500 50  0000 L CIN
+F 3 "" H 2350 4700 50  0000 L CNN
+	2    2350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U100
+U 3 1 591F83F2
+P 2350 5150
+F 0 "U100" H 2150 5350 50  0000 L CNN
+F 1 "TLP291-4" H 2350 5350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 2150 4950 50  0000 L CIN
+F 3 "" H 2350 5150 50  0000 L CNN
+	3    2350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U100
+U 4 1 591F83F3
+P 2350 5600
+F 0 "U100" H 2150 5800 50  0000 L CNN
+F 1 "TLP291-4" H 2350 5800 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 2150 5400 50  0000 L CIN
+F 3 "" H 2350 5600 50  0000 L CNN
+	4    2350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U101
+U 1 1 591F09AB
+P 3750 4250
+F 0 "U101" H 3550 4450 50  0000 L CNN
+F 1 "TLP291-4" H 3750 4450 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 3550 4050 50  0000 L CIN
+F 3 "" H 3750 4250 50  0000 L CNN
+	1    3750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U101
+U 2 1 591F09B1
+P 3750 4700
+F 0 "U101" H 3550 4900 50  0000 L CNN
+F 1 "TLP291-4" H 3750 4900 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 3550 4500 50  0000 L CIN
+F 3 "" H 3750 4700 50  0000 L CNN
+	2    3750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U101
+U 3 1 591F83F6
+P 3750 5150
+F 0 "U101" H 3550 5350 50  0000 L CNN
+F 1 "TLP291-4" H 3750 5350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 3550 4950 50  0000 L CIN
+F 3 "" H 3750 5150 50  0000 L CNN
+	3    3750 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U101
+U 4 1 591F83F7
+P 3750 5600
+F 0 "U101" H 3550 5800 50  0000 L CNN
+F 1 "TLP291-4" H 3750 5800 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 3550 5400 50  0000 L CIN
+F 3 "" H 3750 5600 50  0000 L CNN
+	4    3750 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U102
+U 1 1 591F83F8
+P 5150 4250
+F 0 "U102" H 4950 4450 50  0000 L CNN
+F 1 "TLP291-4" H 5150 4450 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 4950 4050 50  0000 L CIN
+F 3 "" H 5150 4250 50  0000 L CNN
+	1    5150 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U102
+U 2 1 591F83F9
+P 5150 4700
+F 0 "U102" H 4950 4900 50  0000 L CNN
+F 1 "TLP291-4" H 5150 4900 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 4950 4500 50  0000 L CIN
+F 3 "" H 5150 4700 50  0000 L CNN
+	2    5150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U102
+U 3 1 591F83FA
+P 5150 5150
+F 0 "U102" H 4950 5350 50  0000 L CNN
+F 1 "TLP291-4" H 5150 5350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 4950 4950 50  0000 L CIN
+F 3 "" H 5150 5150 50  0000 L CNN
+	3    5150 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U102
+U 4 1 591F0F9B
+P 5150 5600
+F 0 "U102" H 4950 5800 50  0000 L CNN
+F 1 "TLP291-4" H 5150 5800 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 4950 5400 50  0000 L CIN
+F 3 "" H 5150 5600 50  0000 L CNN
+	4    5150 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U103
+U 1 1 591F0FA1
+P 6600 4250
+F 0 "U103" H 6400 4450 50  0000 L CNN
+F 1 "TLP291-4" H 6600 4450 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 6400 4050 50  0000 L CIN
+F 3 "" H 6600 4250 50  0000 L CNN
+	1    6600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U103
+U 2 1 591F0FA7
+P 6600 4700
+F 0 "U103" H 6400 4900 50  0000 L CNN
+F 1 "TLP291-4" H 6600 4900 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 6400 4500 50  0000 L CIN
+F 3 "" H 6600 4700 50  0000 L CNN
+	2    6600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U103
+U 3 1 591F0FAD
+P 6600 5150
+F 0 "U103" H 6400 5350 50  0000 L CNN
+F 1 "TLP291-4" H 6600 5350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 6400 4950 50  0000 L CIN
+F 3 "" H 6600 5150 50  0000 L CNN
+	3    6600 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U103
+U 4 1 591F0FB3
+P 6600 5600
+F 0 "U103" H 6400 5800 50  0000 L CNN
+F 1 "TLP291-4" H 6600 5800 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 6400 5400 50  0000 L CIN
+F 3 "" H 6600 5600 50  0000 L CNN
+	4    6600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U104
+U 1 1 591F8400
+P 8150 4250
+F 0 "U104" H 7950 4450 50  0000 L CNN
+F 1 "TLP291-4" H 8150 4450 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 7950 4050 50  0000 L CIN
+F 3 "" H 8150 4250 50  0000 L CNN
+	1    8150 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U104
+U 2 1 591F191B
+P 8150 4700
+F 0 "U104" H 7950 4900 50  0000 L CNN
+F 1 "TLP291-4" H 8150 4900 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 7950 4500 50  0000 L CIN
+F 3 "" H 8150 4700 50  0000 L CNN
+	2    8150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U104
+U 3 1 591F1921
+P 8150 5150
+F 0 "U104" H 7950 5350 50  0000 L CNN
+F 1 "TLP291-4" H 8150 5350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 7950 4950 50  0000 L CIN
+F 3 "" H 8150 5150 50  0000 L CNN
+	3    8150 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U104
+U 4 1 591F1927
+P 8150 5600
+F 0 "U104" H 7950 5800 50  0000 L CNN
+F 1 "TLP291-4" H 8150 5800 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 7950 5400 50  0000 L CIN
+F 3 "" H 8150 5600 50  0000 L CNN
+	4    8150 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U105
+U 1 1 591F192D
+P 9750 4250
+F 0 "U105" H 9550 4450 50  0000 L CNN
+F 1 "TLP291-4" H 9750 4450 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 9550 4050 50  0000 L CIN
+F 3 "" H 9750 4250 50  0000 L CNN
+	1    9750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U105
+U 2 1 591F1933
+P 9750 4700
+F 0 "U105" H 9550 4900 50  0000 L CNN
+F 1 "TLP291-4" H 9750 4900 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 9550 4500 50  0000 L CIN
+F 3 "" H 9750 4700 50  0000 L CNN
+	2    9750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U105
+U 3 1 591F8406
+P 9750 5150
+F 0 "U105" H 9550 5350 50  0000 L CNN
+F 1 "TLP291-4" H 9750 5350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 9550 4950 50  0000 L CIN
+F 3 "" H 9750 5150 50  0000 L CNN
+	3    9750 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U105
+U 4 1 591F193F
+P 9750 5600
+F 0 "U105" H 9550 5800 50  0000 L CNN
+F 1 "TLP291-4" H 9750 5800 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 9550 5400 50  0000 L CIN
+F 3 "" H 9750 5600 50  0000 L CNN
+	4    9750 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U106
+U 1 1 591F8408
+P 11300 4250
+F 0 "U106" H 11100 4450 50  0000 L CNN
+F 1 "TLP291-4" H 11300 4450 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 11100 4050 50  0000 L CIN
+F 3 "" H 11300 4250 50  0000 L CNN
+	1    11300 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U106
+U 2 1 591F8409
+P 11300 4700
+F 0 "U106" H 11100 4900 50  0000 L CNN
+F 1 "TLP291-4" H 11300 4900 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 11100 4500 50  0000 L CIN
+F 3 "" H 11300 4700 50  0000 L CNN
+	2    11300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U106
+U 3 1 591F840A
+P 11300 5150
+F 0 "U106" H 11100 5350 50  0000 L CNN
+F 1 "TLP291-4" H 11300 5350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 11100 4950 50  0000 L CIN
+F 3 "" H 11300 5150 50  0000 L CNN
+	3    11300 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U106
+U 4 1 591F840B
+P 11300 5600
+F 0 "U106" H 11100 5800 50  0000 L CNN
+F 1 "TLP291-4" H 11300 5800 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 11100 5400 50  0000 L CIN
+F 3 "" H 11300 5600 50  0000 L CNN
+	4    11300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U107
+U 1 1 591F840C
+P 12850 4250
+F 0 "U107" H 12650 4450 50  0000 L CNN
+F 1 "TLP291-4" H 12850 4450 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 12650 4050 50  0000 L CIN
+F 3 "" H 12850 4250 50  0000 L CNN
+	1    12850 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U107
+U 2 1 591F840D
+P 12850 4700
+F 0 "U107" H 12650 4900 50  0000 L CNN
+F 1 "TLP291-4" H 12850 4900 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 12650 4500 50  0000 L CIN
+F 3 "" H 12850 4700 50  0000 L CNN
+	2    12850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U107
+U 3 1 591F840E
+P 12850 5150
+F 0 "U107" H 12650 5350 50  0000 L CNN
+F 1 "TLP291-4" H 12850 5350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 12650 4950 50  0000 L CIN
+F 3 "" H 12850 5150 50  0000 L CNN
+	3    12850 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U107
+U 4 1 591F840F
+P 12850 5600
+F 0 "U107" H 12650 5800 50  0000 L CNN
+F 1 "TLP291-4" H 12850 5800 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 12650 5400 50  0000 L CIN
+F 3 "" H 12850 5600 50  0000 L CNN
+	4    12850 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U108
+U 1 1 591F83F0
+P 2350 6250
+F 0 "U108" H 2150 6450 50  0000 L CNN
+F 1 "TLP291-4" H 2350 6450 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 2150 6050 50  0000 L CIN
+F 3 "" H 2350 6250 50  0000 L CNN
+	1    2350 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U108
+U 2 1 591F02D3
+P 2350 6700
+F 0 "U108" H 2150 6900 50  0000 L CNN
+F 1 "TLP291-4" H 2350 6900 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 2150 6500 50  0000 L CIN
+F 3 "" H 2350 6700 50  0000 L CNN
+	2    2350 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U108
+U 3 1 591F032D
+P 2350 7150
+F 0 "U108" H 2150 7350 50  0000 L CNN
+F 1 "TLP291-4" H 2350 7350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 2150 6950 50  0000 L CIN
+F 3 "" H 2350 7150 50  0000 L CNN
+	3    2350 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U108
+U 4 1 591F03E5
+P 2350 7600
+F 0 "U108" H 2150 7800 50  0000 L CNN
+F 1 "TLP291-4" H 2350 7800 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 2150 7400 50  0000 L CIN
+F 3 "" H 2350 7600 50  0000 L CNN
+	4    2350 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U109
+U 1 1 591F83F4
+P 3750 6250
+F 0 "U109" H 3550 6450 50  0000 L CNN
+F 1 "TLP291-4" H 3750 6450 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 3550 6050 50  0000 L CIN
+F 3 "" H 3750 6250 50  0000 L CNN
+	1    3750 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U109
+U 2 1 591F83F5
+P 3750 6700
+F 0 "U109" H 3550 6900 50  0000 L CNN
+F 1 "TLP291-4" H 3750 6900 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 3550 6500 50  0000 L CIN
+F 3 "" H 3750 6700 50  0000 L CNN
+	2    3750 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U109
+U 3 1 591F09B7
+P 3750 7150
+F 0 "U109" H 3550 7350 50  0000 L CNN
+F 1 "TLP291-4" H 3750 7350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 3550 6950 50  0000 L CIN
+F 3 "" H 3750 7150 50  0000 L CNN
+	3    3750 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U109
+U 4 1 591F09BD
+P 3750 7600
+F 0 "U109" H 3550 7800 50  0000 L CNN
+F 1 "TLP291-4" H 3750 7800 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 3550 7400 50  0000 L CIN
+F 3 "" H 3750 7600 50  0000 L CNN
+	4    3750 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U110
+U 1 1 591F0F89
+P 5150 6250
+F 0 "U110" H 4950 6450 50  0000 L CNN
+F 1 "TLP291-4" H 5150 6450 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 4950 6050 50  0000 L CIN
+F 3 "" H 5150 6250 50  0000 L CNN
+	1    5150 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U110
+U 2 1 591F0F8F
+P 5150 6700
+F 0 "U110" H 4950 6900 50  0000 L CNN
+F 1 "TLP291-4" H 5150 6900 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 4950 6500 50  0000 L CIN
+F 3 "" H 5150 6700 50  0000 L CNN
+	2    5150 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U110
+U 3 1 591F0F95
+P 5150 7150
+F 0 "U110" H 4950 7350 50  0000 L CNN
+F 1 "TLP291-4" H 5150 7350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 4950 6950 50  0000 L CIN
+F 3 "" H 5150 7150 50  0000 L CNN
+	3    5150 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U110
+U 4 1 591F83FB
+P 5150 7600
+F 0 "U110" H 4950 7800 50  0000 L CNN
+F 1 "TLP291-4" H 5150 7800 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 4950 7400 50  0000 L CIN
+F 3 "" H 5150 7600 50  0000 L CNN
+	4    5150 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U111
+U 1 1 591F83FC
+P 6600 6250
+F 0 "U111" H 6400 6450 50  0000 L CNN
+F 1 "TLP291-4" H 6600 6450 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 6400 6050 50  0000 L CIN
+F 3 "" H 6600 6250 50  0000 L CNN
+	1    6600 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U111
+U 2 1 591F83FD
+P 6600 6700
+F 0 "U111" H 6400 6900 50  0000 L CNN
+F 1 "TLP291-4" H 6600 6900 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 6400 6500 50  0000 L CIN
+F 3 "" H 6600 6700 50  0000 L CNN
+	2    6600 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U111
+U 3 1 591F83FE
+P 6600 7150
+F 0 "U111" H 6400 7350 50  0000 L CNN
+F 1 "TLP291-4" H 6600 7350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 6400 6950 50  0000 L CIN
+F 3 "" H 6600 7150 50  0000 L CNN
+	3    6600 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U111
+U 4 1 591F83FF
+P 6600 7600
+F 0 "U111" H 6400 7800 50  0000 L CNN
+F 1 "TLP291-4" H 6600 7800 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 6400 7400 50  0000 L CIN
+F 3 "" H 6600 7600 50  0000 L CNN
+	4    6600 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U112
+U 1 1 591F1915
+P 8150 6250
+F 0 "U112" H 7950 6450 50  0000 L CNN
+F 1 "TLP291-4" H 8150 6450 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 7950 6050 50  0000 L CIN
+F 3 "" H 8150 6250 50  0000 L CNN
+	1    8150 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U112
+U 2 1 591F8401
+P 8150 6700
+F 0 "U112" H 7950 6900 50  0000 L CNN
+F 1 "TLP291-4" H 8150 6900 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 7950 6500 50  0000 L CIN
+F 3 "" H 8150 6700 50  0000 L CNN
+	2    8150 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U112
+U 3 1 591F8402
+P 8150 7150
+F 0 "U112" H 7950 7350 50  0000 L CNN
+F 1 "TLP291-4" H 8150 7350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 7950 6950 50  0000 L CIN
+F 3 "" H 8150 7150 50  0000 L CNN
+	3    8150 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U112
+U 4 1 591F8403
+P 8150 7600
+F 0 "U112" H 7950 7800 50  0000 L CNN
+F 1 "TLP291-4" H 8150 7800 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 7950 7400 50  0000 L CIN
+F 3 "" H 8150 7600 50  0000 L CNN
+	4    8150 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U113
+U 1 1 591F8404
+P 9750 6250
+F 0 "U113" H 9550 6450 50  0000 L CNN
+F 1 "TLP291-4" H 9750 6450 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 9550 6050 50  0000 L CIN
+F 3 "" H 9750 6250 50  0000 L CNN
+	1    9750 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U113
+U 2 1 591F8405
+P 9750 6700
+F 0 "U113" H 9550 6900 50  0000 L CNN
+F 1 "TLP291-4" H 9750 6900 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 9550 6500 50  0000 L CIN
+F 3 "" H 9750 6700 50  0000 L CNN
+	2    9750 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U113
+U 3 1 591F1939
+P 9750 7150
+F 0 "U113" H 9550 7350 50  0000 L CNN
+F 1 "TLP291-4" H 9750 7350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 9550 6950 50  0000 L CIN
+F 3 "" H 9750 7150 50  0000 L CNN
+	3    9750 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U113
+U 4 1 591F8407
+P 9750 7600
+F 0 "U113" H 9550 7800 50  0000 L CNN
+F 1 "TLP291-4" H 9750 7800 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 9550 7400 50  0000 L CIN
+F 3 "" H 9750 7600 50  0000 L CNN
+	4    9750 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U114
+U 1 1 591F1945
+P 11300 6250
+F 0 "U114" H 11100 6450 50  0000 L CNN
+F 1 "TLP291-4" H 11300 6450 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 11100 6050 50  0000 L CIN
+F 3 "" H 11300 6250 50  0000 L CNN
+	1    11300 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U114
+U 2 1 591F194B
+P 11300 6700
+F 0 "U114" H 11100 6900 50  0000 L CNN
+F 1 "TLP291-4" H 11300 6900 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 11100 6500 50  0000 L CIN
+F 3 "" H 11300 6700 50  0000 L CNN
+	2    11300 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U114
+U 3 1 591F1951
+P 11300 7150
+F 0 "U114" H 11100 7350 50  0000 L CNN
+F 1 "TLP291-4" H 11300 7350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 11100 6950 50  0000 L CIN
+F 3 "" H 11300 7150 50  0000 L CNN
+	3    11300 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U114
+U 4 1 591F1957
+P 11300 7600
+F 0 "U114" H 11100 7800 50  0000 L CNN
+F 1 "TLP291-4" H 11300 7800 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 11100 7400 50  0000 L CIN
+F 3 "" H 11300 7600 50  0000 L CNN
+	4    11300 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U115
+U 1 1 591F195D
+P 12850 6250
+F 0 "U115" H 12650 6450 50  0000 L CNN
+F 1 "TLP291-4" H 12850 6450 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 12650 6050 50  0000 L CIN
+F 3 "" H 12850 6250 50  0000 L CNN
+	1    12850 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U115
+U 2 1 591F1963
+P 12850 6700
+F 0 "U115" H 12650 6900 50  0000 L CNN
+F 1 "TLP291-4" H 12850 6900 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 12650 6500 50  0000 L CIN
+F 3 "" H 12850 6700 50  0000 L CNN
+	2    12850 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U115
+U 3 1 591F1969
+P 12850 7150
+F 0 "U115" H 12650 7350 50  0000 L CNN
+F 1 "TLP291-4" H 12850 7350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 12650 6950 50  0000 L CIN
+F 3 "" H 12850 7150 50  0000 L CNN
+	3    12850 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291-4 U115
+U 4 1 591F196F
+P 12850 7600
+F 0 "U115" H 12650 7800 50  0000 L CNN
+F 1 "TLP291-4" H 12850 7800 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm" H 12650 7400 50  0000 L CIN
+F 3 "" H 12850 7600 50  0000 L CNN
+	4    12850 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X04 Px3
+U 1 1 591FD2BA
+P 2750 10850
+F 0 "Px3" H 2775 11101 50  0000 C CNN
+F 1 "Ph-1770979" H 2775 10601 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr" H 2775 9651 50  0000 C CNN
+F 3 "" H 2750 9651 50  0000 C CNN
+	1    2750 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X04 Px4
+U 1 1 591FE2DD
+P 3750 10850
+F 0 "Px4" H 3775 11101 50  0000 C CNN
+F 1 "Ph-1770979" H 3775 10601 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr" H 3775 9651 50  0000 C CNN
+F 3 "" H 3750 9651 50  0000 C CNN
+	1    3750 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X04 Px5
+U 1 1 591FE2E3
+P 4350 10850
+F 0 "Px5" H 4350 11101 50  0000 C CNN
+F 1 "Ph-1770979" H 4350 10601 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr" H 4350 9651 50  0000 C CNN
+F 3 "" H 4350 9651 50  0000 C CNN
+	1    4350 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X04 Px6
+U 1 1 591FE2E9
+P 5000 10850
+F 0 "Px6" H 5000 11101 50  0000 C CNN
+F 1 "Ph-1770979" H 5000 10601 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr" H 5000 9651 50  0000 C CNN
+F 3 "" H 5000 9651 50  0000 C CNN
+	1    5000 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X04 Px7
+U 1 1 591FE305
+P 5600 10850
+F 0 "Px7" H 5625 11101 50  0000 C CNN
+F 1 "Ph-1770979" H 5625 10601 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr" H 5625 9651 50  0000 C CNN
+F 3 "" H 5600 9651 50  0000 C CNN
+	1    5600 10850
+	1    0    0    -1  
+$EndComp
+Text Label 2950 10700 0    60   ~ 0
+GND12V
+Text Label 5850 10700 0    60   ~ 0
++12V
+Text Label 2650 4150 0    60   ~ 0
+3.3Vg
+Text Label 2650 4600 0    60   ~ 0
+3.3Vg
+Text Label 2650 5050 0    60   ~ 0
+3.3Vg
+Text Label 2650 5500 0    60   ~ 0
+3.3Vg
+Text Label 4050 4150 0    60   ~ 0
+3.3Vg
+Text Label 4050 4600 0    60   ~ 0
+3.3Vg
+Text Label 4050 5050 0    60   ~ 0
+3.3Vg
+Text Label 4050 5500 0    60   ~ 0
+3.3Vg
+Text Label 5450 4150 0    60   ~ 0
+3.3Vg
+Text Label 5450 4600 0    60   ~ 0
+3.3Vg
+Text Label 5450 5050 0    60   ~ 0
+3.3Vg
+Text Label 5450 5500 0    60   ~ 0
+3.3Vg
+Text Label 13150 4150 0    60   ~ 0
+3.3Vg
+Text Label 13150 4600 0    60   ~ 0
+3.3Vg
+Text Label 13150 5050 0    60   ~ 0
+3.3Vg
+Text Label 13150 5500 0    60   ~ 0
+3.3Vg
+Text Label 11600 4150 0    60   ~ 0
+3.3Vg
+Text Label 11600 4600 0    60   ~ 0
+3.3Vg
+Text Label 11600 5050 0    60   ~ 0
+3.3Vg
+Text Label 11600 5500 0    60   ~ 0
+3.3Vg
+Text Label 10050 4150 0    60   ~ 0
+3.3Vg
+Text Label 10050 4600 0    60   ~ 0
+3.3Vg
+Text Label 10050 5050 0    60   ~ 0
+3.3Vg
+Text Label 10050 5500 0    60   ~ 0
+3.3Vg
+Text Label 8450 4150 0    60   ~ 0
+3.3Vg
+Text Label 8450 4600 0    60   ~ 0
+3.3Vg
+Text Label 8450 5050 0    60   ~ 0
+3.3Vg
+Text Label 8450 5500 0    60   ~ 0
+3.3Vg
+Text Label 6900 4150 0    60   ~ 0
+3.3Vg
+Text Label 6900 4600 0    60   ~ 0
+3.3Vg
+Text Label 6900 5050 0    60   ~ 0
+3.3Vg
+Text Label 6900 5500 0    60   ~ 0
+3.3Vg
+Text Label 2050 4350 2    60   ~ 0
+GND12V
+Text Label 2050 4800 2    60   ~ 0
+GND12V
+Text Label 2050 5250 2    60   ~ 0
+GND12V
+Text Label 2050 5700 2    60   ~ 0
+GND12V
+Text Label 3450 4350 2    60   ~ 0
+GND12V
+Text Label 3450 4800 2    60   ~ 0
+GND12V
+Text Label 3450 5250 2    60   ~ 0
+GND12V
+Text Label 3450 5700 2    60   ~ 0
+GND12V
+Text Label 4850 4350 2    60   ~ 0
+GND12V
+Text Label 4850 4800 2    60   ~ 0
+GND12V
+Text Label 4850 5250 2    60   ~ 0
+GND12V
+Text Label 4850 5700 2    60   ~ 0
+GND12V
+Text Label 6300 4350 2    60   ~ 0
+GND12V
+Text Label 6300 4800 2    60   ~ 0
+GND12V
+Text Label 6300 5250 2    60   ~ 0
+GND12V
+Text Label 6300 5700 2    60   ~ 0
+GND12V
+Text Label 9450 4350 2    60   ~ 0
+GND12V
+Text Label 9450 4800 2    60   ~ 0
+GND12V
+Text Label 9450 5250 2    60   ~ 0
+GND12V
+Text Label 9450 5700 2    60   ~ 0
+GND12V
+Text Label 7850 4350 2    60   ~ 0
+GND12V
+Text Label 7850 4800 2    60   ~ 0
+GND12V
+Text Label 7850 5250 2    60   ~ 0
+GND12V
+Text Label 7850 5700 2    60   ~ 0
+GND12V
+Text Label 11000 4350 2    60   ~ 0
+GND12V
+Text Label 11000 4800 2    60   ~ 0
+GND12V
+Text Label 11000 5250 2    60   ~ 0
+GND12V
+Text Label 11000 5700 2    60   ~ 0
+GND12V
+Text Label 12550 4350 2    60   ~ 0
+GND12V
+Text Label 12550 4800 2    60   ~ 0
+GND12V
+Text Label 12550 5250 2    60   ~ 0
+GND12V
+Text Label 12550 5700 2    60   ~ 0
+GND12V
+$Comp
+L R_PACK8 RPi7
+U 1 1 59221D5D
+P 14300 2550
+F 0 "RPi7" H 14300 3000 50  0000 C CNN
+F 1 "YC248-JR-074K7L" H 14300 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 14300 2550 50  0000 C CNN
+F 3 "" H 14300 2550 50  0000 C CNN
+	1    14300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_PACK8 RPi6
+U 1 1 5922354E
+P 14300 1400
+F 0 "RPi6" H 14300 1850 50  0000 C CNN
+F 1 "YC248-JR-074K7L" H 14300 950 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 14300 1400 50  0000 C CNN
+F 3 "" H 14300 1400 50  0000 C CNN
+	1    14300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_PACK8 RPi4
+U 1 1 5922367A
+P 11150 1400
+F 0 "RPi4" H 11150 1850 50  0000 C CNN
+F 1 "YC248-JR-074K7L" H 11150 950 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 11150 1400 50  0000 C CNN
+F 3 "" H 11150 1400 50  0000 C CNN
+	1    11150 1400
+	1    0    0    1   
+$EndComp
+$Comp
+L R_PACK8 RPi5
+U 1 1 592237C1
+P 11150 2500
+F 0 "RPi5" H 11150 2950 50  0000 C CNN
+F 1 "YC248-JR-074K7L" H 11150 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 11150 2500 50  0000 C CNN
+F 3 "" H 11150 2500 50  0000 C CNN
+	1    11150 2500
+	1    0    0    1   
+$EndComp
+Text Label 14100 2500 2    60   ~ 0
+i4.1
+Text Label 14100 2400 2    60   ~ 0
+i4.2
+Text Label 14100 2300 2    60   ~ 0
+i4.3
+Text Label 14100 2200 2    60   ~ 0
+i4.4
+Text Label 14100 2900 2    60   ~ 0
+i4.5
+Text Label 14100 2800 2    60   ~ 0
+i4.6
+Text Label 14100 2700 2    60   ~ 0
+i4.7
+Text Label 14100 2600 2    60   ~ 0
+i4.8
+Text Label 14100 1750 2    60   ~ 0
+i5.1
+Text Label 14100 1650 2    60   ~ 0
+i5.2
+Text Label 14100 1550 2    60   ~ 0
+i5.3
+Text Label 14100 1450 2    60   ~ 0
+i5.4
+Text Label 14100 1350 2    60   ~ 0
+i5.5
+Text Label 14100 1250 2    60   ~ 0
+i5.6
+Text Label 14100 1150 2    60   ~ 0
+i5.7
+Text Label 14100 1050 2    60   ~ 0
+i5.8
+Text Label 10950 2550 2    60   ~ 0
+i6.1
+Text Label 10950 2650 2    60   ~ 0
+i6.2
+Text Label 10950 2750 2    60   ~ 0
+i6.3
+Text Label 10950 2850 2    60   ~ 0
+i6.4
+Text Label 10950 2150 2    60   ~ 0
+i6.5
+Text Label 10950 2250 2    60   ~ 0
+i6.6
+Text Label 10950 2350 2    60   ~ 0
+i6.7
+Text Label 10950 2450 2    60   ~ 0
+i6.8
+Text Label 10950 1050 2    60   ~ 0
+i7.1
+Text Label 10950 1150 2    60   ~ 0
+i7.2
+Text Label 10950 1250 2    60   ~ 0
+i7.3
+Text Label 10950 1350 2    60   ~ 0
+i7.4
+Text Label 10950 1450 2    60   ~ 0
+i7.5
+Text Label 10950 1550 2    60   ~ 0
+i7.6
+Text Label 10950 1650 2    60   ~ 0
+i7.7
+Text Label 10950 1750 2    60   ~ 0
+i7.8
+Text Label 2050 4150 2    60   ~ 0
+i7.1
+Text Label 2050 4600 2    60   ~ 0
+i7.2
+Text Label 2050 5050 2    60   ~ 0
+i7.3
+Text Label 2050 5500 2    60   ~ 0
+i7.4
+Text Label 4850 4150 2    60   ~ 0
+i7.5
+Text Label 4850 4600 2    60   ~ 0
+i7.6
+Text Label 4850 5050 2    60   ~ 0
+i7.7
+Text Label 4850 5500 2    60   ~ 0
+i7.8
+Text Label 3450 4150 2    60   ~ 0
+i6.1
+Text Label 3450 4600 2    60   ~ 0
+i6.2
+Text Label 3450 5050 2    60   ~ 0
+i6.3
+Text Label 3450 5500 2    60   ~ 0
+i6.4
+Text Label 6300 4150 2    60   ~ 0
+i6.5
+Text Label 6300 4600 2    60   ~ 0
+i6.6
+Text Label 6300 5050 2    60   ~ 0
+i6.7
+Text Label 6300 5500 2    60   ~ 0
+i6.8
+Text Label 7850 4150 2    60   ~ 0
+i5.1
+Text Label 7850 4600 2    60   ~ 0
+i5.2
+Text Label 7850 5050 2    60   ~ 0
+i5.3
+Text Label 7850 5500 2    60   ~ 0
+i5.4
+Text Label 11000 4150 2    60   ~ 0
+i5.5
+Text Label 11000 4600 2    60   ~ 0
+i5.6
+Text Label 11000 5050 2    60   ~ 0
+i5.7
+Text Label 11000 5500 2    60   ~ 0
+i5.8
+Text Label 9450 4150 2    60   ~ 0
+i4.1
+Text Label 9450 4600 2    60   ~ 0
+i4.2
+Text Label 9450 5050 2    60   ~ 0
+i4.3
+Text Label 9450 5500 2    60   ~ 0
+i4.4
+Text Label 12550 4150 2    60   ~ 0
+i4.5
+Text Label 12550 4600 2    60   ~ 0
+i4.6
+Text Label 12550 5050 2    60   ~ 0
+i4.7
+Text Label 12550 5500 2    60   ~ 0
+i4.8
+Text Label 11600 4350 0    60   ~ 0
+GPIO2_13
+Text Label 11600 4800 0    60   ~ 0
+GPIO2_11
+Text Label 13150 4800 0    60   ~ 0
+GPIO2_9
+Text Label 13150 4350 0    60   ~ 0
+GPIO2_7
+Text Label 13150 5700 0    60   ~ 0
+GPIO2_12
+Text Label 13150 5250 0    60   ~ 0
+GPIO2_10
+Text Label 11600 5250 0    60   ~ 0
+GPIO2_8
+Text Label 11600 5700 0    60   ~ 0
+GPIO2_6
+Text Label 8450 4350 0    60   ~ 0
+GPIO0_11
+Text Label 8450 4800 0    60   ~ 0
+GPIO2_17
+Text Label 8450 5250 0    60   ~ 0
+GPIO2_16
+Text Label 10050 4350 0    60   ~ 0
+GPIO2_15
+Text Label 10050 5700 0    60   ~ 0
+GPIO0_10
+Text Label 10050 5250 0    60   ~ 0
+GPIO0_9
+Text Label 10050 4800 0    60   ~ 0
+GPIO0_8
+Text Label 8450 5700 0    60   ~ 0
+GPIO2_14
+Text Label 6900 5700 0    60   ~ 0
+GPIO1_1
+Text Label 6900 5250 0    60   ~ 0
+GPIO1_29
+Text Label 6900 4800 0    60   ~ 0
+GPIO2_24
+Text Label 6900 4350 0    60   ~ 0
+GPIO2_25
+Text Label 5450 4350 0    60   ~ 0
+GPIO1_4
+Text Label 5450 4800 0    60   ~ 0
+GPIO1_0
+Text Label 5450 5250 0    60   ~ 0
+GPIO2_22
+Text Label 5450 5700 0    60   ~ 0
+GPIO2_23
+Text Label 2650 4350 0    60   ~ 0
+GPIO1_14
+Text Label 2650 4800 0    60   ~ 0
+GPIO2_1
+Text Label 2650 5250 0    60   ~ 0
+GPIO1_31
+Text Label 2650 5700 0    60   ~ 0
+GPIO1_5
+Text Label 4050 5700 0    60   ~ 0
+GPIO1_15
+Text Label 4050 5250 0    60   ~ 0
+GPIO0_27
+Text Label 4050 4800 0    60   ~ 0
+GPIO0_22
+Text Label 4050 4350 0    60   ~ 0
+GPIO1_30
+$Comp
+L R_PACK8 RPo0
+U 1 1 59259A75
+P 5550 1400
+F 0 "RPo0" H 5550 1850 50  0000 C CNN
+F 1 "YC248-JR-074K7L" H 5550 950 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 5550 1400 50  0000 C CNN
+F 3 "" H 5550 1400 50  0000 C CNN
+	1    5550 1400
+	1    0    0    -1  
+$EndComp
+Text Label 5350 1050 2    60   ~ 0
+o0.1
+Text Label 5350 1150 2    60   ~ 0
+o0.2
+Text Label 5350 1250 2    60   ~ 0
+o0.3
+Text Label 5350 1350 2    60   ~ 0
+o0.4
+Text Label 5350 1450 2    60   ~ 0
+o0.5
+Text Label 5350 1550 2    60   ~ 0
+o0.6
+Text Label 5350 1650 2    60   ~ 0
+o0.7
+Text Label 5350 1750 2    60   ~ 0
+o0.8
+$Comp
+L R_PACK8 RPo1
+U 1 1 5925B856
+P 5550 2500
+F 0 "RPo1" H 5550 2950 50  0000 C CNN
+F 1 "YC248-JR-074K7L" H 5550 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 5550 2500 50  0000 C CNN
+F 3 "" H 5550 2500 50  0000 C CNN
+	1    5550 2500
+	1    0    0    -1  
+$EndComp
+Text Label 7900 1050 2    60   ~ 0
+o1.1
+Text Label 7900 1150 2    60   ~ 0
+o1.2
+Text Label 7900 1250 2    60   ~ 0
+o1.3
+Text Label 7900 1350 2    60   ~ 0
+o1.4
+Text Label 7900 1450 2    60   ~ 0
+o1.5
+Text Label 7900 1550 2    60   ~ 0
+o1.6
+Text Label 7900 1650 2    60   ~ 0
+o1.7
+Text Label 7900 1750 2    60   ~ 0
+o1.8
+$Comp
+L R_PACK8 RPo2
+U 1 1 5925C78E
+P 8100 1400
+F 0 "RPo2" H 8100 1850 50  0000 C CNN
+F 1 "YC248-JR-074K7L" H 8100 950 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 8100 1400 50  0000 C CNN
+F 3 "" H 8100 1400 50  0000 C CNN
+	1    8100 1400
+	1    0    0    -1  
+$EndComp
+Text Label 5350 2150 2    60   ~ 0
+o2.1
+Text Label 5350 2250 2    60   ~ 0
+o2.2
+Text Label 5350 2350 2    60   ~ 0
+o2.3
+Text Label 5350 2450 2    60   ~ 0
+o2.4
+Text Label 5350 2550 2    60   ~ 0
+o2.5
+Text Label 5350 2650 2    60   ~ 0
+o2.6
+Text Label 5350 2750 2    60   ~ 0
+o2.7
+Text Label 5350 2850 2    60   ~ 0
+o2.8
+$Comp
+L R_PACK8 RPo3
+U 1 1 5925D565
+P 8100 2500
+F 0 "RPo3" H 8100 2950 50  0000 C CNN
+F 1 "YC248-JR-074K7L" H 8100 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 8100 2500 50  0000 C CNN
+F 3 "" H 8100 2500 50  0000 C CNN
+	1    8100 2500
+	1    0    0    -1  
+$EndComp
+Text Label 7900 2150 2    60   ~ 0
+o3.1
+Text Label 7900 2250 2    60   ~ 0
+o3.2
+Text Label 7900 2350 2    60   ~ 0
+o3.3
+Text Label 7900 2450 2    60   ~ 0
+o3.4
+Text Label 7900 2550 2    60   ~ 0
+o3.5
+Text Label 7900 2650 2    60   ~ 0
+o3.6
+Text Label 7900 2750 2    60   ~ 0
+o3.7
+Text Label 7900 2850 2    60   ~ 0
+o3.8
+Text Label 11600 6350 0    60   ~ 0
+o3.1
+Text Label 11600 6800 0    60   ~ 0
+o3.2
+Text Label 11600 7250 0    60   ~ 0
+o3.3
+Text Label 11600 7700 0    60   ~ 0
+o3.4
+Text Label 13150 6350 0    60   ~ 0
+o3.5
+Text Label 13150 6800 0    60   ~ 0
+o3.6
+Text Label 13150 7250 0    60   ~ 0
+o3.7
+Text Label 13150 7700 0    60   ~ 0
+o3.8
+Text Label 8450 6350 0    60   ~ 0
+o2.1
+Text Label 8450 6800 0    60   ~ 0
+o2.2
+Text Label 8450 7250 0    60   ~ 0
+o2.3
+Text Label 8450 7700 0    60   ~ 0
+o2.4
+Text Label 10050 6350 0    60   ~ 0
+o2.5
+Text Label 10050 6800 0    60   ~ 0
+o2.6
+Text Label 10050 7250 0    60   ~ 0
+o2.7
+Text Label 10050 7700 0    60   ~ 0
+o2.8
+Text Label 6900 6150 0    60   ~ 0
++12V
+Text Label 6900 6600 0    60   ~ 0
++12V
+Text Label 6900 7050 0    60   ~ 0
++12V
+Text Label 6900 7500 0    60   ~ 0
++12V
+Text Label 8450 6150 0    60   ~ 0
++12V
+Text Label 8450 6600 0    60   ~ 0
++12V
+Text Label 8450 7050 0    60   ~ 0
++12V
+Text Label 8450 7500 0    60   ~ 0
++12V
+Text Label 10050 6150 0    60   ~ 0
++12V
+Text Label 10050 6600 0    60   ~ 0
++12V
+Text Label 10050 7050 0    60   ~ 0
++12V
+Text Label 10050 7500 0    60   ~ 0
++12V
+Text Label 11600 6150 0    60   ~ 0
++12V
+Text Label 11600 6600 0    60   ~ 0
++12V
+Text Label 11600 7050 0    60   ~ 0
++12V
+Text Label 11600 7500 0    60   ~ 0
++12V
+Text Label 13150 6150 0    60   ~ 0
++12V
+Text Label 13150 6600 0    60   ~ 0
++12V
+Text Label 13150 7050 0    60   ~ 0
++12V
+Text Label 13150 7500 0    60   ~ 0
++12V
+Text Label 5450 6150 0    60   ~ 0
++12V
+Text Label 5450 6600 0    60   ~ 0
++12V
+Text Label 5450 7050 0    60   ~ 0
++12V
+Text Label 5450 7500 0    60   ~ 0
++12V
+Text Label 4050 6150 0    60   ~ 0
++12V
+Text Label 4050 6600 0    60   ~ 0
++12V
+Text Label 4050 7050 0    60   ~ 0
++12V
+Text Label 4050 7500 0    60   ~ 0
++12V
+Text Label 2650 6150 0    60   ~ 0
++12V
+Text Label 2650 6600 0    60   ~ 0
++12V
+Text Label 2650 7050 0    60   ~ 0
++12V
+Text Label 2650 7500 0    60   ~ 0
++12V
+Text Label 5450 6350 0    60   ~ 0
+o1.1
+Text Label 5450 6800 0    60   ~ 0
+o1.2
+Text Label 5450 7250 0    60   ~ 0
+o1.3
+Text Label 5450 7700 0    60   ~ 0
+o1.4
+Text Label 6900 6350 0    60   ~ 0
+o1.5
+Text Label 6900 6800 0    60   ~ 0
+o1.6
+Text Label 6900 7250 0    60   ~ 0
+o1.7
+Text Label 6900 7700 0    60   ~ 0
+o1.8
+Text Label 2650 6350 0    60   ~ 0
+o0.1
+Text Label 2650 6800 0    60   ~ 0
+o0.2
+Text Label 2650 7250 0    60   ~ 0
+o0.3
+Text Label 2650 7700 0    60   ~ 0
+o0.4
+Text Label 4050 6350 0    60   ~ 0
+o0.5
+Text Label 4050 6800 0    60   ~ 0
+o0.6
+Text Label 4050 7250 0    60   ~ 0
+o0.7
+Text Label 4050 7700 0    60   ~ 0
+o0.8
+Text Label 3850 9000 0    60   ~ 0
+GND1g
+$Comp
+L R_PACK8 RPo5
+U 1 1 5926EF69
+P 3650 8650
+F 0 "RPo5" H 3650 9100 50  0000 C CNN
+F 1 "MNR18ERAPJ152 " H 3650 8200 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 3650 8650 50  0000 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor_network/mnr_g.pdf" H 3650 8650 50  0000 C CNN
+	1    3650 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_PACK8 RPo6
+U 1 1 5926F101
+P 6500 8650
+F 0 "RPo6" H 6500 9100 50  0000 C CNN
+F 1 "MNR18ERAPJ152 " H 6500 8200 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 6500 8650 50  0000 C CNN
+F 3 "" H 6500 8650 50  0000 C CNN
+	1    6500 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_PACK8 RPo7
+U 1 1 5926F297
+P 9650 8650
+F 0 "RPo7" H 9650 9100 50  0000 C CNN
+F 1 "MNR18ERAPJ152 " H 9650 8200 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 9650 8650 50  0000 C CNN
+F 3 "" H 9650 8650 50  0000 C CNN
+	1    9650 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_PACK8 RPo8
+U 1 1 5926F3EC
+P 12750 8650
+F 0 "RPo8" H 12750 9100 50  0000 C CNN
+F 1 "MNR18ERAPJ152 " H 12750 8200 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 12750 8650 50  0000 C CNN
+F 3 "" H 12750 8650 50  0000 C CNN
+	1    12750 8650
+	1    0    0    -1  
+$EndComp
+Text Label 6700 9000 0    60   ~ 0
+GND1g
+Text Label 9850 9000 0    60   ~ 0
+GND1g
+Text Label 12950 9000 0    60   ~ 0
+GND1g
+Text Label 3450 6150 2    60   ~ 0
+GPIO1_6
+Text Label 3450 7050 2    60   ~ 0
+GPIO1_2
+Text Label 7850 6150 2    60   ~ 0
+GPIO2_2
+Text Label 7850 7050 2    60   ~ 0
+GPIO2_5
+Text Label 2050 6150 2    60   ~ 0
+GPIO1_13
+Text Label 2050 7050 2    60   ~ 0
+GPIO0_23
+Text Label 3450 6600 2    60   ~ 0
+GPIO1_7
+Text Label 3450 7500 2    60   ~ 0
+GPIO1_3
+Text Label 7850 6600 2    60   ~ 0
+GPIO2_3
+Text Label 7850 7500 2    60   ~ 0
+GPIO2_4
+Text Label 2050 6600 2    60   ~ 0
+GPIO1_12
+Text Label 2050 7500 2    60   ~ 0
+GPIO0_26
+Text Label 9450 7500 2    60   ~ 0
+GPIO0_30
+Text Label 9450 7050 2    60   ~ 0
+GPIO1_28
+Text Label 9450 6600 2    60   ~ 0
+GPIO0_31
+Text Label 9450 6150 2    60   ~ 0
+GPIO1_18
+Text Label 6300 7500 2    60   ~ 0
+GPIO1_16
+Text Label 6300 7050 2    60   ~ 0
+GPIO1_19
+Text Label 6300 6600 2    60   ~ 0
+GPIO0_5
+Text Label 6300 6150 2    60   ~ 0
+GPIO0_4
+Text Label 11000 7500 2    60   ~ 0
+GPIO0_3
+Text Label 11000 7050 2    60   ~ 0
+GPIO0_2
+Text Label 11000 6600 2    60   ~ 0
+GPIO1_17
+Text Label 11000 6150 2    60   ~ 0
+GPIO0_15
+Text Label 12550 7500 2    60   ~ 0
+GPIO3_21
+Text Label 12550 7050 2    60   ~ 0
+GPIO0_14
+Text Label 12550 6600 2    60   ~ 0
+GPIO3_19
+Text Label 12550 6150 2    60   ~ 0
+GPIO3_17
+Text Label 4850 6150 2    60   ~ 0
+GPIO3_16
+Text Label 4850 6600 2    60   ~ 0
+GPIO3_14
+Text Label 4850 7050 2    60   ~ 0
+GPIO0_20
+Text Label 4850 7500 2    60   ~ 0
+GPIO0_7
+Text Label 9100 9650 2    60   ~ 0
+GPIO3_15
+Text Label 9850 10200 2    60   ~ 0
+GND3
+$Comp
+L R R1
+U 1 1 5924BBC5
+P 9450 9900
+F 0 "R1" V 9530 9900 50  0000 C CNN
+F 1 "1000G" V 9450 9900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 9380 9900 50  0000 C CNN
+F 3 "" H 9450 9900 50  0000 C CNN
+	1    9450 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_PMOS_GSD Q2
+U 1 1 5925B4D0
+P 10850 9650
+F 0 "Q2" H 11150 9700 50  0000 R CNN
+F 1 "SQ2303ES" H 11500 9600 50  0000 R CNN
+F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23" H 11050 9750 50  0000 C CNN
+F 3 "https://www.vishay.com/docs/67023/sq2303es.pdf" H 10850 9650 50  0000 C CNN
+	1    10850 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GSD Q1
+U 1 1 5925B699
+P 9750 9650
+F 0 "Q1" H 10050 9700 50  0000 R CNN
+F 1 "SQ2348ES" H 10400 9600 50  0000 R CNN
+F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23" H 9950 9750 50  0000 C CNN
+F 3 "http://www.vishay.com/docs/63706/sq2348es.pdf" H 9750 9650 50  0000 C CNN
+	1    9750 9650
+	1    0    0    -1  
+$EndComp
+Text Label 10950 9200 0    60   ~ 0
+3.3Vg
+Text Label 10950 10150 0    60   ~ 0
+DC_3.3Ve
+Wire Wire Line
+	650  10700 1250 10700
+Connection ~ 1150 10700
+Wire Wire Line
+	1150 10700 1900 10700
+Wire Wire Line
+	650  10800 1900 10800
+Connection ~ 1150 10800
+Wire Wire Line
+	650  10900 1250 10900
+Connection ~ 1150 10900
+Wire Wire Line
+	1150 10900 1900 10900
+Wire Wire Line
+	650  11000 1250 11000
+Connection ~ 1150 11000
+Wire Wire Line
+	1150 11000 1900 11000
+Wire Wire Line
+	1150 10800 1250 10800
+Connection ~ 1250 10800
+Wire Wire Line
+	1150 10700 1150 11000
+Connection ~ 1750 10700
+Connection ~ 1750 10800
+Connection ~ 1750 10900
+Connection ~ 1750 11000
+Wire Wire Line
+	1750 10700 2500 10700
+Wire Wire Line
+	1750 10800 2500 10800
+Wire Wire Line
+	1750 10900 2500 10900
+Wire Wire Line
+	1750 11000 2500 11000
+Connection ~ 2400 10700
+Connection ~ 2400 10800
+Connection ~ 2400 10900
+Connection ~ 2400 11000
+Wire Wire Line
+	2400 10700 3000 10700
+Wire Wire Line
+	2400 10800 3000 10800
+Wire Wire Line
+	2400 10900 3000 10900
+Wire Wire Line
+	2400 11000 3000 11000
+Wire Wire Line
+	3500 10700 4100 10700
+Connection ~ 4000 10700
+Wire Wire Line
+	4000 10700 4750 10700
+Wire Wire Line
+	3500 10800 4750 10800
+Connection ~ 4000 10800
+Wire Wire Line
+	3500 10900 4100 10900
+Connection ~ 4000 10900
+Wire Wire Line
+	4000 10900 4750 10900
+Wire Wire Line
+	3500 11000 4100 11000
+Connection ~ 4000 11000
+Wire Wire Line
+	4000 11000 4750 11000
+Wire Wire Line
+	4000 10800 4100 10800
+Connection ~ 4100 10800
+Wire Wire Line
+	4000 10700 4000 11000
+Connection ~ 4600 10700
+Connection ~ 4600 10800
+Connection ~ 4600 10900
+Connection ~ 4600 11000
+Wire Wire Line
+	4600 10700 5350 10700
+Wire Wire Line
+	4600 10800 5350 10800
+Wire Wire Line
+	4600 10900 5350 10900
+Wire Wire Line
+	4600 11000 5350 11000
+Connection ~ 5250 10700
+Connection ~ 5250 10800
+Connection ~ 5250 10900
+Connection ~ 5250 11000
+Wire Wire Line
+	5250 10700 5850 10700
+Wire Wire Line
+	5250 10800 5850 10800
+Wire Wire Line
+	5250 10900 5850 10900
+Wire Wire Line
+	5250 11000 5850 11000
+Wire Wire Line
+	14500 1050 15100 1050
+Wire Wire Line
+	14500 1150 15100 1150
+Wire Wire Line
+	14500 1250 15100 1250
+Wire Wire Line
+	14500 1350 15100 1350
+Wire Wire Line
+	14500 1450 15100 1450
+Wire Wire Line
+	14500 1550 15100 1550
+Wire Wire Line
+	14500 1650 15100 1650
+Wire Wire Line
+	14500 1750 15100 1750
+Wire Wire Line
+	11350 2850 12000 2850
+Wire Wire Line
+	11350 2750 12000 2750
+Wire Wire Line
+	11350 2650 12000 2650
+Wire Wire Line
+	11350 2550 12000 2550
+Wire Wire Line
+	11350 2450 12000 2450
+Wire Wire Line
+	11350 2350 12000 2350
+Wire Wire Line
+	11350 2250 12000 2250
+Wire Wire Line
+	11350 2150 12000 2150
+Wire Wire Line
+	11350 1750 12000 1750
+Wire Wire Line
+	11350 1650 12000 1650
+Wire Wire Line
+	11350 1550 12000 1550
+Wire Wire Line
+	11350 1450 12000 1450
+Wire Wire Line
+	11350 1350 12000 1350
+Wire Wire Line
+	11350 1250 12000 1250
+Wire Wire Line
+	11350 1150 12000 1150
+Wire Wire Line
+	11350 1050 12000 1050
+Wire Wire Line
+	5750 1350 6400 1350
+Wire Wire Line
+	5750 1250 6400 1250
+Wire Wire Line
+	5750 1150 6400 1150
+Wire Wire Line
+	5750 1050 6400 1050
+Wire Wire Line
+	5750 2450 6400 2450
+Wire Wire Line
+	5750 2350 6400 2350
+Wire Wire Line
+	5750 2250 6400 2250
+Wire Wire Line
+	5750 2150 6400 2150
+Wire Wire Line
+	8300 1750 8950 1750
+Wire Wire Line
+	8300 1650 8950 1650
+Wire Wire Line
+	8300 1550 8950 1550
+Wire Wire Line
+	8300 1450 8950 1450
+Wire Wire Line
+	8300 1350 8950 1350
+Wire Wire Line
+	8300 1250 8950 1250
+Wire Wire Line
+	8300 1150 8950 1150
+Wire Wire Line
+	8300 1050 8950 1050
+Wire Wire Line
+	8300 2850 8950 2850
+Wire Wire Line
+	8300 2750 8950 2750
+Wire Wire Line
+	8300 2650 8950 2650
+Wire Wire Line
+	8300 2550 8950 2550
+Wire Wire Line
+	8300 2450 8950 2450
+Wire Wire Line
+	8300 2350 8950 2350
+Wire Wire Line
+	8300 2250 8950 2250
+Wire Wire Line
+	8300 2150 8950 2150
+Wire Wire Line
+	3450 6350 3100 6350
+Wire Wire Line
+	3100 6350 3100 8600
+Wire Wire Line
+	3100 8600 3450 8600
+Wire Wire Line
+	3450 6800 3150 6800
+Wire Wire Line
+	3150 6800 3150 8500
+Wire Wire Line
+	3150 8500 3450 8500
+Wire Wire Line
+	3200 7250 3200 8400
+Wire Wire Line
+	3200 8400 3450 8400
+Wire Wire Line
+	3450 7700 3250 7700
+Wire Wire Line
+	3250 7700 3250 8300
+Wire Wire Line
+	3250 8300 3450 8300
+Wire Wire Line
+	2050 7700 2000 7700
+Wire Wire Line
+	2000 7700 2000 8700
+Wire Wire Line
+	2000 8700 3450 8700
+Wire Wire Line
+	2050 7250 1950 7250
+Wire Wire Line
+	1950 7250 1950 8800
+Wire Wire Line
+	1950 8800 3450 8800
+Wire Wire Line
+	2050 6800 1900 6800
+Wire Wire Line
+	1900 6800 1900 8900
+Wire Wire Line
+	1900 8900 3450 8900
+Wire Wire Line
+	2050 6350 1850 6350
+Wire Wire Line
+	1850 6350 1850 9000
+Wire Wire Line
+	1850 9000 3450 9000
+Wire Wire Line
+	3850 8300 3850 9000
+Connection ~ 3850 8400
+Connection ~ 3850 8500
+Connection ~ 3850 8700
+Connection ~ 3850 8800
+Connection ~ 3850 8900
+Wire Wire Line
+	3200 7250 3450 7250
+Wire Wire Line
+	6300 7700 6200 7700
+Wire Wire Line
+	6200 7700 6200 8300
+Wire Wire Line
+	6200 8300 6300 8300
+Wire Wire Line
+	6300 7250 6150 7250
+Wire Wire Line
+	6150 7250 6150 8400
+Wire Wire Line
+	6150 8400 6300 8400
+Wire Wire Line
+	6300 6800 6100 6800
+Wire Wire Line
+	6100 6800 6100 8500
+Wire Wire Line
+	6100 8500 6300 8500
+Wire Wire Line
+	6300 6350 6050 6350
+Wire Wire Line
+	6050 6350 6050 8600
+Wire Wire Line
+	6050 8600 6300 8600
+Wire Wire Line
+	4850 7700 4750 7700
+Wire Wire Line
+	4750 7700 4750 8700
+Wire Wire Line
+	4750 8700 6300 8700
+Wire Wire Line
+	6300 8800 4700 8800
+Wire Wire Line
+	4700 8800 4700 7250
+Wire Wire Line
+	4700 7250 4850 7250
+Wire Wire Line
+	4850 6800 4650 6800
+Wire Wire Line
+	4650 6800 4650 8900
+Wire Wire Line
+	4650 8900 6300 8900
+Wire Wire Line
+	6300 9000 4600 9000
+Wire Wire Line
+	4600 9000 4600 6350
+Wire Wire Line
+	4600 6350 4850 6350
+Wire Wire Line
+	6700 8300 6700 9000
+Connection ~ 6700 8400
+Connection ~ 6700 8500
+Connection ~ 6700 8600
+Connection ~ 6700 8700
+Connection ~ 6700 8800
+Connection ~ 6700 8900
+Wire Wire Line
+	9450 8300 9250 8300
+Wire Wire Line
+	9250 8300 9250 7700
+Wire Wire Line
+	9250 7700 9450 7700
+Wire Wire Line
+	9450 7250 9200 7250
+Wire Wire Line
+	9200 7250 9200 8400
+Wire Wire Line
+	9200 8400 9450 8400
+Wire Wire Line
+	9150 8500 9450 8500
+Wire Wire Line
+	9150 6800 9150 8500
+Wire Wire Line
+	9150 6800 9450 6800
+Wire Wire Line
+	9450 6350 9100 6350
+Wire Wire Line
+	9100 6350 9100 8600
+Wire Wire Line
+	9100 8600 9450 8600
+Wire Wire Line
+	9450 8700 7700 8700
+Wire Wire Line
+	7700 8700 7700 7700
+Wire Wire Line
+	7700 7700 7850 7700
+Wire Wire Line
+	7850 7250 7650 7250
+Wire Wire Line
+	7650 7250 7650 8800
+Wire Wire Line
+	7650 8800 9450 8800
+Wire Wire Line
+	9450 8900 7600 8900
+Wire Wire Line
+	7600 8900 7600 6800
+Wire Wire Line
+	7600 6800 7850 6800
+Wire Wire Line
+	7850 6350 7550 6350
+Wire Wire Line
+	7550 6350 7550 9000
+Wire Wire Line
+	7550 9000 9450 9000
+Wire Wire Line
+	9850 8300 9850 9450
+Connection ~ 9850 8400
+Connection ~ 9850 8500
+Connection ~ 9850 8600
+Connection ~ 9850 8700
+Connection ~ 9850 8800
+Connection ~ 9850 8900
+Connection ~ 9850 9000
+Wire Wire Line
+	12550 8300 12400 8300
+Wire Wire Line
+	12400 8300 12400 7700
+Wire Wire Line
+	12400 7700 12550 7700
+Wire Wire Line
+	12550 7250 12350 7250
+Wire Wire Line
+	12350 7250 12350 8400
+Wire Wire Line
+	12350 8400 12550 8400
+Wire Wire Line
+	12550 8500 12300 8500
+Wire Wire Line
+	12300 8500 12300 6800
+Wire Wire Line
+	12300 6800 12550 6800
+Wire Wire Line
+	12550 6350 12250 6350
+Wire Wire Line
+	12250 6350 12250 8600
+Wire Wire Line
+	12250 8600 12550 8600
+Wire Wire Line
+	10800 8700 12550 8700
+Wire Wire Line
+	10800 8700 10800 7700
+Wire Wire Line
+	10800 7700 11000 7700
+Wire Wire Line
+	11000 7250 10750 7250
+Wire Wire Line
+	10750 7250 10750 8800
+Wire Wire Line
+	10750 8800 12550 8800
+Wire Wire Line
+	12550 8900 10700 8900
+Wire Wire Line
+	10700 8900 10700 6800
+Wire Wire Line
+	10700 6800 11000 6800
+Wire Wire Line
+	11000 6350 10650 6350
+Wire Wire Line
+	10650 6350 10650 9000
+Wire Wire Line
+	10650 9000 12550 9000
+Wire Wire Line
+	12950 8300 12950 9000
+Connection ~ 12950 8600
+Connection ~ 12950 8700
+Connection ~ 12950 8800
+Connection ~ 12950 8900
+Connection ~ 12950 8500
+Connection ~ 12950 8400
+Wire Wire Line
+	3850 8500 3850 8600
+Connection ~ 3850 8600
+Connection ~ 5900 1050
+Connection ~ 5900 1150
+Connection ~ 5900 1250
+Connection ~ 5900 1350
+Connection ~ 5900 1450
+Connection ~ 5900 1550
+Connection ~ 5900 1650
+Connection ~ 5900 1750
+Connection ~ 5900 2150
+Connection ~ 5900 2250
+Connection ~ 5900 2350
+Connection ~ 5900 2450
+Connection ~ 5900 2550
+Connection ~ 5900 2650
+Connection ~ 5900 2750
+Connection ~ 5900 2850
+Connection ~ 14600 1050
+Connection ~ 14600 1150
+Connection ~ 14600 1250
+Connection ~ 14600 1350
+Connection ~ 14600 1450
+Connection ~ 14600 1550
+Connection ~ 14600 1650
+Connection ~ 14600 1750
+Connection ~ 14600 2200
+Connection ~ 14600 2300
+Connection ~ 14600 2400
+Connection ~ 14600 2500
+Connection ~ 14600 2600
+Connection ~ 14600 2700
+Connection ~ 14600 2800
+Connection ~ 14600 2900
+Connection ~ 11500 2850
+Connection ~ 11500 2750
+Connection ~ 11500 2650
+Connection ~ 11500 2550
+Connection ~ 11500 2450
+Connection ~ 11500 2350
+Connection ~ 11500 2250
+Connection ~ 11500 2150
+Connection ~ 11500 1750
+Connection ~ 11500 1650
+Connection ~ 11500 1550
+Connection ~ 11500 1450
+Connection ~ 11500 1350
+Connection ~ 11500 1250
+Connection ~ 11500 1150
+Connection ~ 11500 1050
+Connection ~ 8450 1050
+Connection ~ 8450 1150
+Connection ~ 8450 1250
+Connection ~ 8450 1350
+Connection ~ 8450 1450
+Connection ~ 8450 1550
+Connection ~ 8450 1650
+Connection ~ 8450 1750
+Connection ~ 8450 2150
+Connection ~ 8450 2250
+Connection ~ 8450 2350
+Connection ~ 8450 2450
+Connection ~ 8450 2550
+Connection ~ 8450 2650
+Connection ~ 8450 2750
+Connection ~ 8450 2850
+Wire Wire Line
+	5750 2550 6400 2550
+Wire Wire Line
+	5750 2650 6400 2650
+Wire Wire Line
+	5750 2750 6400 2750
+Wire Wire Line
+	5750 2850 6400 2850
+Wire Wire Line
+	5750 1450 6400 1450
+Wire Wire Line
+	5750 1550 6400 1550
+Wire Wire Line
+	5750 1650 6400 1650
+Wire Wire Line
+	5750 1750 6400 1750
+Wire Wire Line
+	9850 9850 9850 10200
+Wire Wire Line
+	9450 9750 9450 9650
+Wire Wire Line
+	9450 10050 9850 10050
+Connection ~ 9850 10050
+Wire Wire Line
+	9100 9650 9550 9650
+Connection ~ 9450 9650
+Wire Wire Line
+	9850 9450 10650 9450
+Wire Wire Line
+	10650 9450 10650 9650
+Wire Wire Line
+	10950 10150 10950 9850
+Wire Wire Line
+	10950 9200 10950 9450
+Wire Wire Line
+	14500 2400 15100 2400
+Wire Wire Line
+	14500 2300 15100 2300
+Wire Wire Line
+	14500 2200 15100 2200
+Wire Wire Line
+	14500 2500 15100 2500
+Wire Wire Line
+	14500 2600 15100 2600
+Wire Wire Line
+	14500 2700 15100 2700
+Wire Wire Line
+	14500 2800 15100 2800
+Wire Wire Line
+	14500 2900 15100 2900
+$EndSCHEMATC

@@ -1,0 +1,211 @@
+Cmp-Mod V01 Created by PcbNew   date = Wed 17 May 2017 11:05:52 ART
+
+BeginCmp
+TimeStamp = 55DF7717
+Path = /55DF7DE1
+Reference = P8;
+ValeurCmp = BeagleBone_Black_Header;
+IdModule  = Socket_BeagleBone_Black:Socket_BeagleBone_Black;
+EndCmp
+
+BeginCmp
+TimeStamp = 55DF7748
+Path = /55DF7DBA
+Reference = P9;
+ValeurCmp = BeagleBone_Black_Header;
+IdModule  = Socket_BeagleBone_Black:Socket_BeagleBone_Black;
+EndCmp
+
+BeginCmp
+TimeStamp = 591DC084
+Path = /591B6E07
+Reference = Po1;
+ValeurCmp = CONN_02X08;
+IdModule  = Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr;
+EndCmp
+
+BeginCmp
+TimeStamp = 591DC0D2
+Path = /591B6E5B
+Reference = Po2;
+ValeurCmp = CONN_02X08;
+IdModule  = Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr;
+EndCmp
+
+BeginCmp
+TimeStamp = 591DC0FA
+Path = /591B6EB9
+Reference = Po3;
+ValeurCmp = CONN_02X08;
+IdModule  = Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr;
+EndCmp
+
+BeginCmp
+TimeStamp = 591DC122
+Path = /591B6FE8
+Reference = Po4;
+ValeurCmp = CONN_02X08;
+IdModule  = Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr;
+EndCmp
+
+BeginCmp
+TimeStamp = 591DC14A
+Path = /591B6FEF
+Reference = Po5;
+ValeurCmp = CONN_02X08;
+IdModule  = Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr;
+EndCmp
+
+BeginCmp
+TimeStamp = 591DC172
+Path = /591B6FF6
+Reference = Po6;
+ValeurCmp = CONN_02X08;
+IdModule  = Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr;
+EndCmp
+
+BeginCmp
+TimeStamp = 591DC19A
+Path = /591B6FFD
+Reference = Po7;
+ValeurCmp = CONN_02X08;
+IdModule  = Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr;
+EndCmp
+
+BeginCmp
+TimeStamp = 5923D2EA
+Path = /5919E9D3
+Reference = Po0;
+ValeurCmp = CONN_02X08;
+IdModule  = Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr;
+EndCmp
+
+BeginCmp
+TimeStamp = 5923D2FA
+Path = /591B8518
+Reference = Px0;
+ValeurCmp = CONN_02X04;
+IdModule  = Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr;
+EndCmp
+
+BeginCmp
+TimeStamp = 5923D4AC
+Path = /591B9399
+Reference = Px1;
+ValeurCmp = CONN_02X04;
+IdModule  = Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr;
+EndCmp
+
+BeginCmp
+TimeStamp = 5923D4BC
+Path = /591B93F7
+Reference = Px2;
+ValeurCmp = CONN_02X04;
+IdModule  = Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr;
+EndCmp
+
+BeginCmp
+TimeStamp = 5923D4CC
+Path = /591B94AE
+Reference = Px3;
+ValeurCmp = CONN_02X04;
+IdModule  = Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr;
+EndCmp
+
+BeginCmp
+TimeStamp = 5923D4DC
+Path = /591B9504
+Reference = Px4;
+ValeurCmp = CONN_02X04;
+IdModule  = Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr;
+EndCmp
+
+BeginCmp
+TimeStamp = 5923D4EC
+Path = /591B956F
+Reference = Px5;
+ValeurCmp = CONN_02X04;
+IdModule  = Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr;
+EndCmp
+
+BeginCmp
+TimeStamp = 5923D4FC
+Path = /591B96BD
+Reference = Px6;
+ValeurCmp = CONN_02X04;
+IdModule  = Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr;
+EndCmp
+
+BeginCmp
+TimeStamp = 5923D50C
+Path = /591B971A
+Reference = Px7;
+ValeurCmp = CONN_02X04;
+IdModule  = Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr;
+EndCmp
+
+BeginCmp
+TimeStamp = 591C74C0
+Path = /591C79C9
+Reference = U100;
+ValeurCmp = TLP291-4;
+IdModule  = Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 591C7840
+Path = /591C8C4B
+Reference = U101;
+ValeurCmp = TLP291-4;
+IdModule  = Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 591C7862
+Path = /591C912E
+Reference = U102;
+ValeurCmp = TLP291-4;
+IdModule  = Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 591C7884
+Path = /591C91E2
+Reference = U103;
+ValeurCmp = TLP291-4;
+IdModule  = Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 591C78A6
+Path = /591C91E8
+Reference = U104;
+ValeurCmp = TLP291-4;
+IdModule  = Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 591C78C8
+Path = /591C91EE
+Reference = U105;
+ValeurCmp = TLP291-4;
+IdModule  = Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 591C78EA
+Path = /591C91F4
+Reference = U106;
+ValeurCmp = TLP291-4;
+IdModule  = Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 591C790C
+Path = /591C9621
+Reference = U107;
+ValeurCmp = TLP291-4;
+IdModule  = Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm;
+EndCmp
+
+EndListe

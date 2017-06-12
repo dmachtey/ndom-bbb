@@ -1,0 +1,10 @@
+* 32 opto inputs + 32 opto outputs for BeagleBone Black
+  - this board is intended to be used for domotics
+* Contributors are welcome
+
+* Contact information
+  - Damian Machtey
+  - dmachtey at gmail com
+
+* License
+  The code and hardware is being released under CC-BY-SA

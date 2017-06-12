@@ -1,0 +1,148 @@
+
+(rules PCB domcape
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 20275)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.7)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 170.0)
+    (clear 170.2)
+    (clear 85.0 (type smd_to_turn_gap))
+    (clear 300.2 (type default_"high_current"))
+    (clear 200.2 (type default_power))
+    (clear 42.6 (type smd_smd))
+    (clear 300.2 (type smd_"high_current"))
+    (clear 200.2 (type smd_power))
+    (clear 300.2 (type "kicad_default"_"high_current"))
+    (clear 200.2 (type "kicad_default"_power))
+    (clear 300.2 (type "high_current"_"high_current"))
+    (clear 300.2 (type "high_current"_power))
+    (clear 200.2 (type power_power))
+  )
+  (padstack "Via[0-1]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
+  )
+  (via 
+    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:400_um-high_current" "Via[0-1]_600:400_um" "high_current"
+  )
+  (via 
+    "Via[0-1]_600:400_um-power" "Via[0-1]_600:400_um" power
+  )
+  (via_rule
+    default "Via[0-1]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:400_um-kicad_default"
+  )
+  (via_rule
+    "high_current" "Via[0-1]_600:400_um-high_current"
+  )
+  (via_rule
+    power "Via[0-1]_600:400_um-power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 170.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(Po1-Pad3)" "Net-(Po1-Pad5)" "Net-(Po1-Pad7)" "Net-(Po2-Pad1)" "Net-(Po2-Pad3)" "Net-(Po2-Pad5)" "Net-(Po2-Pad7)" "Net-(Po3-Pad1)"
+    "Net-(Po3-Pad3)" "Net-(Po3-Pad5)" "Net-(Po3-Pad7)" "Net-(Po4-Pad1)" "Net-(Po4-Pad3)" "Net-(Po4-Pad5)" "Net-(Po4-Pad7)" "Net-(Po5-Pad1)"
+    "Net-(Po5-Pad3)" "Net-(Po5-Pad5)" "Net-(Po5-Pad7)" "Net-(Po6-Pad1)" "Net-(Po6-Pad3)" "Net-(Po6-Pad5)" "Net-(Po6-Pad7)" "Net-(Po7-Pad1)"
+    "Net-(Po7-Pad3)" "Net-(Po7-Pad5)" "Net-(Po7-Pad7)" "Net-(Po1-Pad1)" "Net-(Po1-Pad10)" "Net-(Po1-Pad11)" "Net-(Po1-Pad13)" "Net-(Po1-Pad15)"
+    "Net-(Po2-Pad10)" "Net-(Po2-Pad11)" "Net-(Po2-Pad13)" "Net-(Po2-Pad15)" "Net-(Po3-Pad10)" "Net-(Po3-Pad11)" "Net-(Po3-Pad13)" "Net-(Po3-Pad15)"
+    "Net-(Po4-Pad10)" "Net-(Po4-Pad11)" "Net-(Po4-Pad13)" "Net-(Po4-Pad15)" "Net-(Po5-Pad10)" "Net-(Po5-Pad11)" "Net-(Po5-Pad13)" "Net-(Po5-Pad15)"
+    "Net-(Po6-Pad10)" "Net-(Po6-Pad11)" "Net-(Po6-Pad13)" "Net-(Po6-Pad15)" "Net-(Po7-Pad10)" "Net-(Po7-Pad11)" "Net-(Po7-Pad13)" "Net-(Po7-Pad15)"
+    "Net-(Po0-Pad1)" "Net-(Po0-Pad3)" "Net-(Po0-Pad5)" "Net-(Po0-Pad7)" "Net-(Po0-Pad10)" "Net-(Po0-Pad11)" "Net-(Po0-Pad13)" "Net-(Po0-Pad15)"
+    "/GPIO1_6" "/GPIO1_7" "/GPIO1_2" "/GPIO1_3" "/GPIO2_2" "/GPIO2_3" "/GPIO2_5" "/GPIO2_4"
+    "/GPIO1_13" "/GPIO1_12" "/GPIO0_23" "/GPIO0_26" "/GPIO1_15" "/GPIO1_14" "/GPIO0_27" "/GPIO2_1"
+    "/GPIO0_22" "/GPIO1_31" "/GPIO1_30" "/GPIO1_5" "/GPIO1_4" "/GPIO1_1" "/GPIO1_0" "/GPIO1_29"
+    "/GPIO2_22" "/GPIO2_24" "/GPIO2_23" "/GPIO2_25" "/GPIO0_10" "/GPIO0_11" "/GPIO0_9" "/GPIO2_17"
+    "/GPIO0_8" "/GPIO2_16" "/GPIO2_14" "/GPIO2_15" "/GPIO2_12" "/GPIO2_13" "/GPIO2_10" "/GPIO2_11"
+    "/GPIO2_8" "/GPIO2_9" "/GPIO2_6" "/GPIO2_7" "/PWR_BUT" "/SYS_RESETn" "/GPIO0_30" "/GPIO1_28"
+    "/GPIO0_31" "/GPIO1_18" "/GPIO1_16" "/GPIO1_19" "/GPIO0_5" "/GPIO0_4" "/I2C2_SCL" "/I2C2_SDA"
+    "/GPIO0_3" "/GPIO0_2" "/GPIO1_17" "/GPIO0_15" "/GPIO3_21" "/GPIO0_14" "/GPIO3_19" "/GPIO3_17"
+    "/GPIO3_16" "/GPIO3_14" /VADC /AIN4 /AGND /AIN6 /AIN5 /AIN2
+    /AIN3 /AIN0 /AIN1 "/GPIO0_20" "/GPIO0_7" /i4.1 /i4.8 /i4.2
+    /i4.3 /i4.4 /i4.5 /i4.6 /i4.7 /i5.1 /i5.8 /i5.2
+    /i5.3 /i5.4 /i5.5 /i5.6 /i5.7 /i6.1 /i6.8 /i6.2
+    /i6.3 /i6.4 /i6.5 /i6.6 /i6.7 /i7.1 /i7.8 /i7.2
+    /i7.3 /i7.4 /i7.5 /i7.6 /i7.7 /o0.4 /o0.5 /o0.3
+    /o0.2 /o0.1 /o0.8 /o0.7 /o0.6 /o1.4 /o1.5 /o1.3
+    /o1.2 /o1.1 /o1.8 /o1.7 /o1.6 /o2.4 /o2.5 /o2.3
+    /o2.2 /o2.1 /o2.8 /o2.7 /o2.6 /o3.4 /o3.5 /o3.3
+    /o3.2 /o3.1 /o3.8 /o3.7 /o3.6 "Net-(RPo5-Pad1)" "Net-(RPo5-Pad8)" "Net-(RPo5-Pad2)"
+    "Net-(RPo5-Pad3)" "Net-(RPo5-Pad4)" "Net-(RPo5-Pad5)" "Net-(RPo5-Pad6)" "Net-(RPo5-Pad7)" "Net-(RPo6-Pad1)" "Net-(RPo6-Pad8)" "Net-(RPo6-Pad2)"
+    "Net-(RPo6-Pad3)" "Net-(RPo6-Pad4)" "Net-(RPo6-Pad5)" "Net-(RPo6-Pad6)" "Net-(RPo6-Pad7)" "Net-(RPo7-Pad1)" "Net-(RPo7-Pad8)" "Net-(RPo7-Pad2)"
+    "Net-(RPo7-Pad3)" "Net-(RPo7-Pad4)" "Net-(RPo7-Pad5)" "Net-(RPo7-Pad6)" "Net-(RPo7-Pad7)" "Net-(RPo8-Pad1)" "Net-(RPo8-Pad8)" "Net-(RPo8-Pad2)"
+    "Net-(RPo8-Pad3)" "Net-(RPo8-Pad4)" "Net-(RPo8-Pad5)" "Net-(RPo8-Pad6)" "Net-(RPo8-Pad7)" "/GPIO3_15"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 170.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "high_current"
+    /GND12V /+12V
+    (clearance_class "high_current")
+    (via_rule high_current)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class power
+    /GND2 /GND1 "/DC_3.3Ve" "/VDD_5V" "/SYS_5V" /GND3 /3.3Vg /GND1g
+    (clearance_class power)
+    (via_rule power)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

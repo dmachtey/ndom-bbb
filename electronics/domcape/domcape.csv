@@ -1,0 +1,50 @@
+Reference, Value, Footprint, Datasheet
+Px0,Ph-1770979,Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr,
+Px1,Ph-1770979,Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr,
+Px2,Ph-1770979,Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr,
+P9,BeagleBone_Black_Header,,
+P8,BeagleBone_Black_Header,,
+Po0,Phoenix-1771017,Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr,http://www.phoenixcontact.com/us/products/1771017/pdf
+Po4,Phoenix-1771017,Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr,http://www.phoenixcontact.com/us/products/1771017/pdf
+Po1,Phoenix-1771017,Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr,http://www.phoenixcontact.com/us/products/1771017/pdf
+Po2,Phoenix-1771017,Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr,http://www.phoenixcontact.com/us/products/1771017/pdf
+Po3,Phoenix-1771017,Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr,http://www.phoenixcontact.com/us/products/1771017/pdf
+Po5,Phoenix-1771017,Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr,http://www.phoenixcontact.com/us/products/1771017/pdf
+Po6,Phoenix-1771017,Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr,http://www.phoenixcontact.com/us/products/1771017/pdf
+Po7,Phoenix-1771017,Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr,http://www.phoenixcontact.com/us/products/1771017/pdf
+U100,TLP291-4,Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm,http://www.mouser.com/ds/2/408/TLP291-4-204553.pdf
+U101,TLP291-4,Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm,
+U102,TLP291-4,Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm,
+U103,TLP291-4,Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm,
+U104,TLP291-4,Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm,
+U105,TLP291-4,Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm,
+U106,TLP291-4,Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm,
+U107,TLP291-4,Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm,
+U108,TLP291-4,Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm,
+U109,TLP291-4,Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm,
+U110,TLP291-4,Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm,
+U111,TLP291-4,Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm,
+U112,TLP291-4,Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm,
+U113,TLP291-4,Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm,
+U114,TLP291-4,Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm,
+U115,TLP291-4,Housings_SSOP:SOP-16_4.4x10.4mm_Pitch1.27mm,
+Px3,Ph-1770979,Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr,
+Px4,Ph-1770979,Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr,
+Px5,Ph-1770979,Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr,
+Px6,Ph-1770979,Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr,
+Px7,Ph-1770979,Connectors_Phoenix:Phoenix_PTSM05_4-2.5_thr,
+RPi7,YC248-JR-074K7L,Resistors_SMD:R_Array_Convex_8x0602,
+RPi6,YC248-JR-074K7L,Resistors_SMD:R_Array_Convex_8x0602,
+RPi4,YC248-JR-074K7L,Resistors_SMD:R_Array_Convex_8x0602,
+RPi5,YC248-JR-074K7L,Resistors_SMD:R_Array_Convex_8x0602,
+RPo0,YC248-JR-074K7L,Resistors_SMD:R_Array_Convex_8x0602,
+RPo1,YC248-JR-074K7L,Resistors_SMD:R_Array_Convex_8x0602,
+RPo2,YC248-JR-074K7L,Resistors_SMD:R_Array_Convex_8x0602,
+RPo3,YC248-JR-074K7L,Resistors_SMD:R_Array_Convex_8x0602,
+RPo5,MNR18ERAPJ152 ,Resistors_SMD:R_Array_Convex_8x0602,http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor_network/mnr_g.pdf
+RPo6,MNR18ERAPJ152 ,Resistors_SMD:R_Array_Convex_8x0602,
+RPo7,MNR18ERAPJ152 ,Resistors_SMD:R_Array_Convex_8x0602,
+RPo8,MNR18ERAPJ152 ,Resistors_SMD:R_Array_Convex_8x0602,
+R1,1000G,Resistors_SMD:R_0402,
+Q2,SQ2303ES,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,https://www.vishay.com/docs/67023/sq2303es.pdf
+Q1,SQ2348ES,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,http://www.vishay.com/docs/63706/sq2348es.pdf

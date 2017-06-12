@@ -1,0 +1,204 @@
+
+(session "out-board.ses"
+  (base_design "out-board.dsn")
+  (placement
+    (resolution um 10)
+    (component "Housings_DIP:DIP-4_W7.62mm_LongPads"
+      (place IC1 1394460 -708660 front 90)
+    )
+    (component "TO_SOT_Packages_THT:TO-220_Neutral123_Vertical"
+      (place Q1 1419860 -541020 front 180)
+    )
+    (component custom:RC03
+      (place R1 1424940 -594360 front 180)
+      (place R2 1498600 -571500 front 90)
+    )
+    (component "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol"
+      (place P1 1493520 -683260 front 0)
+    )
+    (component "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-4pol"
+      (place P2 1544320 -459740 front 180)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "4.0.2+dfsg1-stable")
+    )
+    (library_out 
+      (padstack "Via[0-1]_600:400_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(IC1-Pad1)"
+        (wire
+          (path B.Cu 8000
+            1394460 -685157
+            1443231 -685157
+            1469925 -658463
+            1518723 -658463
+            1543520 -683260
+          )
+        )
+        (wire
+          (path B.Cu 8000
+            1394460 -708660
+            1394460 -685157
+          )
+        )
+      )
+      (net "Net-(IC1-Pad2)"
+        (wire
+          (path B.Cu 8000
+            1493520 -683260
+            1469017 -683260
+          )
+        )
+        (wire
+          (path B.Cu 8000
+            1439863 -708660
+            1443617 -708660
+            1469017 -683260
+          )
+        )
+        (wire
+          (path B.Cu 8000
+            1419860 -708660
+            1439863 -708660
+          )
+        )
+      )
+      (net "Net-(IC1-Pad3)"
+        (wire
+          (path B.Cu 8000
+            1445260 -541020
+            1445260 -565521
+          )
+        )
+        (wire
+          (path B.Cu 8000
+            1445260 -565521
+            1463040 -583301
+            1463040 -594360
+          )
+        )
+        (wire
+          (path B.Cu 8000
+            1419860 -632460
+            1439863 -632460
+          )
+        )
+        (wire
+          (path B.Cu 8000
+            1463040 -594360
+            1439863 -617537
+            1439863 -632460
+          )
+        )
+      )
+      (net /+12V
+        (wire
+          (path B.Cu 8000
+            1532069 -459740
+            1532069 -576131
+            1498600 -609600
+          )
+        )
+        (wire
+          (path B.Cu 8000
+            1531103 -459740
+            1506229 -434866
+            1469194 -434866
+            1444320 -459740
+          )
+        )
+        (wire
+          (path B.Cu 8000
+            1532069 -459740
+            1531103 -459740
+          )
+        )
+        (wire
+          (path B.Cu 8000
+            1544320 -459740
+            1532069 -459740
+          )
+        )
+        (wire
+          (path B.Cu 8000
+            1394460 -655963
+            1449454 -655963
+            1495817 -609600
+            1498600 -609600
+          )
+        )
+        (wire
+          (path B.Cu 8000
+            1394460 -632460
+            1394460 -655963
+          )
+        )
+      )
+      (net /OUT_1
+        (wire
+          (path B.Cu 8000
+            1494320 -499602
+            1494320 -529120
+            1498600 -533400
+          )
+        )
+        (wire
+          (path B.Cu 8000
+            1494320 -459740
+            1494320 -499602
+          )
+        )
+        (wire
+          (path B.Cu 8000
+            1494320 -499602
+            1436777 -499602
+            1419860 -516519
+          )
+        )
+        (wire
+          (path B.Cu 8000
+            1419860 -541020
+            1419860 -516519
+          )
+        )
+      )
+      (net "/-12V_1"
+        (wire
+          (path B.Cu 8000
+            1394320 -459740
+            1394460 -459880
+            1394460 -541020
+          )
+        )
+        (wire
+          (path B.Cu 8000
+            1394460 -541020
+            1394460 -565521
+          )
+        )
+        (wire
+          (path B.Cu 8000
+            1394460 -565521
+            1386840 -573141
+            1386840 -594360
+          )
+        )
+      )
+    )
+  )
+)

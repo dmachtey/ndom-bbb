@@ -6,4 +6,4 @@
   - Damian Machtey
   - dmachtey at gmail com
 * License
-  Hardware is being released under CC-BY-SA
+  All hardware is released under [[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Share-alike 4.0 International]] [[file:https://i.creativecommons.org/l/by-sa/4.0/88x31.png]]

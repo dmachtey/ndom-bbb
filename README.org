@@ -5,8 +5,8 @@
   - All inputs and outputs are gated though =GPIO3_15=
   - There are two more boards on this project:
     - "relay-board" is a single relay board.
-    - "out-board" is a high current (10A) Mosfet Board (intended for
-      PWM LEDs) up to 60 volts
+    - "out-board" is a high current (10A) Mosfet Board intended for
+      (soft) PWM LEDs, up to 60 volts
 
 #+ATTR_LaTeX: :width 10cm\textwidth :options angle=0 :placement [H]
 [[https://github.com/dmachtey/ndom-bbb/blob/master/images/domcape8.jpg]]

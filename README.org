@@ -8,7 +8,7 @@
       PWM LEDs) up to 60 volts
 
 #+ATTR_LaTeX: :width 10cm\textwidth :options angle=0 :placement [H]
-file:images/domcape8.jpg
+file:https://github.com/dmachtey/ndom-bbb/blob/master/images/domcape8.jpg
 
 
 * Contributors are welcome

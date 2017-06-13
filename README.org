@@ -7,6 +7,10 @@
     - "out-board" is a high current (10A) Mosfet Board (intended for
       PWM LEDs) up to 60 volts
 
+#+ATTR_LaTeX: :width 10cm\textwidth :options angle=0 :placement [H]
+file:images/domcape8.jpg
+
+
 * Contributors are welcome
 
 * Contact information

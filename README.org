@@ -1,6 +1,7 @@
 * 32 opto inputs + 32 opto outputs for BeagleBone Black
   - this board is intended to be used for domotics or whatever you
-    want
+    want.
+  - It has Push-in spring connectors
   - All inputs and outputs are gated though =GPIO3_15=
   - There are two more boards on this project:
     - "relay-board" is single relay board.

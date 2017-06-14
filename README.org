@@ -1,4 +1,9 @@
-* 32 opto inputs + 32 opto outputs for BeagleBone Black
+* 32 opto inputs +
+
+
+
+
+32 opto outputs for BeagleBone Black
   - this board is intended to be used for domotics or whatever you
     want.
   - It has Push-in spring connectors for easiness and space reduction
@@ -16,3 +21,6 @@
   - dmachtey at gmail com
 * License
   All hardware is released under [[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Share-alike 4.0 International]] [[file:https://i.creativecommons.org/l/by-sa/4.0/88x31.png]]
+* Fell free to use this project
+  - Just please let me know
+  - and if you manufacture the board please keep my name on it.

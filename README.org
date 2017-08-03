@@ -1,4 +1,5 @@
-* 32 opto inputs +32 opto outputs for BeagleBone Black
+* High density BBB domotic cape.
+  - 32 opto inputs +32 opto outputs for BeagleBone Black
   - this board is intended to be used for domotics or whatever you
     want.
   - It has Push-in spring's connectors for easiness and space reduction

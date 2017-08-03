@@ -1,0 +1,14 @@
+# Description:
+# Author: Damian Machtey
+#
+# Created: Tue Jul 18 14:02:59 2017 (-0300)
+#
+# Last-Updated: Thu Aug  3 19:18:39 2017 (+0200)
+#           By: Damian Machtey
+#
+#
+
+* Components replacements
+  TLP293-4(LGB,E can replace TLP291-4
+  EXB-2HV152JV can replace MNR18ERAPJ152
+  R1 value is none. (open)

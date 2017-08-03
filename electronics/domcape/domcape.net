@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/damian/projects/ndom-bbb/electronics/domcape/domcape.sch)
-    (date "Mon 29 May 2017 17:01:49 ART")
+    (date "Thu 06 Jul 2017 09:44:15 ART")
     (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -300,7 +300,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5926F3EC))
     (comp (ref R1)
-      (value 1000G)
+      (value placemaker)
       (footprint Resistors_SMD:R_0402)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
@@ -497,12 +497,12 @@
   (libraries
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical domcape-cache)
-      (uri /home/damian/projects/ndom-bbb/electronics/domcape/domcape-cache.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
     (library (logical opto)
       (uri /usr/share/kicad/library/opto.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib)))
+    (library (logical domcape-cache)
+      (uri /home/damian/projects/ndom-bbb/electronics/domcape/domcape-cache.lib)))
   (nets
     (net (code 1) (name "Net-(RPo7-Pad6)")
       (node (ref U112) (pin 6))

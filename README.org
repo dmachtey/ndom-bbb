@@ -20,7 +20,7 @@
     International]]
     [[file:https://i.creativecommons.org/l/by-sa/4.0/88x31.png]]
   - Software is released under GNU General Public License
-  http://www.gnu.org/licenses/
+    http://www.gnu.org/licenses/
 
   - © 2017 Damian Machtey
 

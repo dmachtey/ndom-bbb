@@ -3,7 +3,7 @@
 #
 # Created: Sat Sep  9 12:22:26 2017 (-0300)
 #
-# Last-Updated: Sun Sep 10 09:43:15 2017 (-0300)
+# Last-Updated: Sun Sep 10 13:53:06 2017 (-0300)
 #           By: Damian Machtey
 #
 #
@@ -37,3 +37,11 @@
     - as shown above some inputs remain high when nothing is
       connected, not even the cape. It looks like the pull-down
       resistor is not enough for some pins
+
+
+      - P8_20
+      - P8_21
+      - P8_22
+      - P8_23
+      - P8_24
+      - P8_25

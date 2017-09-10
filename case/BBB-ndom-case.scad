@@ -15,27 +15,34 @@ peg_outer_radius=2.8;
 peg_inner_radius=2.0;
 
 module RoundedBB(extra_width,extra_height,depth,curve=bb_curve_corner) {
-     minkowski() {
-          cube([bb_width-curve+extra_width,bb_height-curve+extra_height,depth],center=true);
-          cylinder(r=curve/2, height=depth, $fn=32);
-     }
-   //  translate([0,55+2.5,0.5])
-   //   cube([bb_width+wall_thickness,23,bb_depth+1],center=true);
+          minkowski() {
+               cube([bb_width-curve+extra_width,bb_height-curve+extra_height,depth],center=true);
+               cylinder(r=curve/2, height=depth, $fn=32);
+          }
 }
 
 module BeagleBox(curve=bb_curve_corner) {
+     union () {
      difference() {
           RoundedBB(wall_thickness, wall_thickness, bb_depth, curve);
           translate([0,0,base_thickness])
                RoundedBB(0, 0, bb_depth, curve-2);
      }
+     translate([0,55+2.5,0.5])
+            cube([bb_width+wall_thickness,23,bb_depth+1],center=true);
+
+     // wall corrections
+     translate([bb_width/2+wall_thickness/2-1.5,40,0.5])
+          cube([3,23,bb_depth+1],center=true);
+
+     translate([-bb_width/2-wall_thickness/2+1.5,40,0.5])
+          cube([3,23,bb_depth+1],center=true);
+     }
 }
 
 difference() {
      union() {
-
           difference() {
-
                BeagleBox();
 
                translate([0,0,-bb_depth/2+9]) {
@@ -60,13 +67,16 @@ difference() {
                     translate([-23,-bb_height/2-10,-10])
                          cube([12,20,9]);
                     // original mini USB, doesn't fit cable
-                    %				translate([-22,-bb_height/2-10,-12])
-                                         cube([10,20,8]);
+                    % translate([-22,-bb_height/2-10,-12])
+                           cube([10,20,8]);
 
                     // -- Top reduction Damian--
-                    translate([-56/2,35,8.01-1])
-                            cube([56,20,17-12]);
+                    translate([-56/2,40,8.01-1])
+                           cube([56,30,17-12]);
 
+                    // -- End reduction
+                    translate([-48/2,47.9,-11])
+                         cube([48,22,20]);
 
 
                     // SD Card slot
@@ -104,7 +114,6 @@ difference() {
                     cylinder(r=peg_outer_radius,h=2,$fn=32,center=true);
           }
      }
-
      // Drill holes through pegs and floor
 //	translate([0,0,-bb_depth/2+9]) {
      // Pegs on "power" end
@@ -120,27 +129,3 @@ difference() {
 //			cylinder(r=peg_inner_radius,h=10,$fn=32,center=true);
 //	}
 }
-
-
-
-difference(){
-     union(){
-          translate([0,55+2.5,0.5])
-               cube([bb_width+wall_thickness,23,bb_depth+1],center=true);
-
-          // correcion de las paredes
-          translate([bb_width/2+wall_thickness/2-1.5,40,0.5])
-               cube([3,23,bb_depth+1],center=true);
-
-          translate([-bb_width/2-wall_thickness/2+1.5,40,0.5])
-               cube([3,23,bb_depth+1],center=true);
-     }
-
-     union(){
-          // -- Top reduction Damian--
-          translate([-56/2,35,6])
-               cube([56,200,17]);
-
-          translate([-48/2,35,-11])
-               cube([48,200,130]);
-     }}

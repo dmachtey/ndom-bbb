@@ -16,7 +16,12 @@
   - Damian Machtey
   - dmachtey at gmail com
 * License
-  - Hardware is released under [[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Sharealike 4.0 International]] [[file:https://i.creativecommons.org/l/by-sa/4.0/88x31.png]]
+  - Hardware is released under [[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Sharealike 4.0
+    International]]
+    [[file:https://i.creativecommons.org/l/by-sa/4.0/88x31.png]]
+  - Software is released under GNU General Public License
+  http://www.gnu.org/licenses/
+
   - © 2017 Damian Machtey
 
 

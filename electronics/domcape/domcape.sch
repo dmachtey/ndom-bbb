@@ -285,34 +285,34 @@ $EndComp
 $Comp
 L CONN_02X08 Po0
 U 1 1 591E8FDA
-P 6150 1400
-F 0 "Po0" H 6150 1850 50  0000 C CNN
-F 1 "Phoenix-1771017" V 6150 1400 50  0000 C CNN
-F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 6150 200 50  0000 C CNN
-F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 6150 200 50  0000 C CNN
-	1    6150 1400
+P 7250 1400
+F 0 "Po0" H 7250 1850 50  0000 C CNN
+F 1 "Phoenix-1771017" V 7250 1400 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 7250 200 50  0000 C CNN
+F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 7250 200 50  0000 C CNN
+	1    7250 1400
 	1    0    0    1   
 $EndComp
 $Comp
 L CONN_02X08 Po4
 U 1 1 591E923D
-P 11750 1400
-F 0 "Po4" H 11750 1850 50  0000 C CNN
-F 1 "Phoenix-1771017" V 11750 1400 50  0000 C CNN
-F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 11750 200 50  0000 C CNN
-F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 11750 200 50  0000 C CNN
-	1    11750 1400
+P 10100 1400
+F 0 "Po4" H 10100 1850 50  0000 C CNN
+F 1 "Phoenix-1771017" V 10100 1400 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 10100 200 50  0000 C CNN
+F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 10100 200 50  0000 C CNN
+	1    10100 1400
 	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_02X08 Po1
 U 1 1 591E974C
-P 6150 2500
-F 0 "Po1" H 6150 2950 50  0000 C CNN
-F 1 "Phoenix-1771017" V 6150 2500 50  0000 C CNN
-F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 6150 1300 50  0000 C CNN
-F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 6150 1300 50  0000 C CNN
-	1    6150 2500
+P 7250 2500
+F 0 "Po1" H 7250 2950 50  0000 C CNN
+F 1 "Phoenix-1771017" V 7250 2500 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 7250 1300 50  0000 C CNN
+F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 7250 1300 50  0000 C CNN
+	1    7250 2500
 	1    0    0    1   
 $EndComp
 $Comp
@@ -340,34 +340,34 @@ $EndComp
 $Comp
 L CONN_02X08 Po5
 U 1 1 591E9998
-P 11750 2500
-F 0 "Po5" H 11750 2950 50  0000 C CNN
-F 1 "Phoenix-1771017" V 11750 2500 50  0000 C CNN
-F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 11750 1300 50  0000 C CNN
-F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 11750 1300 50  0000 C CNN
-	1    11750 2500
+P 10100 2500
+F 0 "Po5" H 10100 2950 50  0000 C CNN
+F 1 "Phoenix-1771017" V 10100 2500 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 10100 1300 50  0000 C CNN
+F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 10100 1300 50  0000 C CNN
+	1    10100 2500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_02X08 Po6
 U 1 1 591E9AF6
-P 14850 1400
-F 0 "Po6" H 14850 1850 50  0000 C CNN
-F 1 "Phoenix-1771017" V 14850 1400 50  0000 C CNN
-F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 14850 200 50  0000 C CNN
-F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 14850 200 50  0000 C CNN
-	1    14850 1400
+P 11500 1400
+F 0 "Po6" H 11500 1850 50  0000 C CNN
+F 1 "Phoenix-1771017" V 11500 1400 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 11500 200 50  0000 C CNN
+F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 11500 200 50  0000 C CNN
+	1    11500 1400
 	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_02X08 Po7
 U 1 1 591E9C11
-P 14850 2550
-F 0 "Po7" H 14850 3000 50  0000 C CNN
-F 1 "Phoenix-1771017" V 14850 2550 50  0000 C CNN
-F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 14850 1350 50  0000 C CNN
-F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 14850 1350 50  0000 C CNN
-	1    14850 2550
+P 11500 2550
+F 0 "Po7" H 11500 3000 50  0000 C CNN
+F 1 "Phoenix-1771017" V 11500 2550 50  0000 C CNN
+F 2 "Connectors_Phoenix:Phoenix_PTSM05_8-2.5_thr" H 11500 1350 50  0000 C CNN
+F 3 "http://www.phoenixcontact.com/us/products/1771017/pdf" H 11500 1350 50  0000 C CNN
+	1    11500 2550
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1264,110 +1264,110 @@ GND12V
 $Comp
 L R_PACK8 RPi7
 U 1 1 59221D5D
-P 14300 2550
-F 0 "RPi7" H 14300 3000 50  0000 C CNN
-F 1 "YC248-JR-074K7L" H 14300 2100 50  0000 C CNN
-F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 14300 2550 50  0000 C CNN
-F 3 "" H 14300 2550 50  0000 C CNN
-	1    14300 2550
+P 10950 2550
+F 0 "RPi7" H 10950 3000 50  0000 C CNN
+F 1 "YC248-JR-074K7L" H 10950 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 10950 2550 50  0000 C CNN
+F 3 "" H 10950 2550 50  0000 C CNN
+	1    10950 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L R_PACK8 RPi6
 U 1 1 5922354E
-P 14300 1400
-F 0 "RPi6" H 14300 1850 50  0000 C CNN
-F 1 "YC248-JR-074K7L" H 14300 950 50  0000 C CNN
-F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 14300 1400 50  0000 C CNN
-F 3 "" H 14300 1400 50  0000 C CNN
-	1    14300 1400
+P 10950 1400
+F 0 "RPi6" H 10950 1850 50  0000 C CNN
+F 1 "YC248-JR-074K7L" H 10950 950 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 10950 1400 50  0000 C CNN
+F 3 "" H 10950 1400 50  0000 C CNN
+	1    10950 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L R_PACK8 RPi4
 U 1 1 5922367A
-P 11150 1400
-F 0 "RPi4" H 11150 1850 50  0000 C CNN
-F 1 "YC248-JR-074K7L" H 11150 950 50  0000 C CNN
-F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 11150 1400 50  0000 C CNN
-F 3 "" H 11150 1400 50  0000 C CNN
-	1    11150 1400
+P 9500 1400
+F 0 "RPi4" H 9500 1850 50  0000 C CNN
+F 1 "YC248-JR-074K7L" H 9500 950 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 9500 1400 50  0000 C CNN
+F 3 "" H 9500 1400 50  0000 C CNN
+	1    9500 1400
 	1    0    0    1   
 $EndComp
 $Comp
 L R_PACK8 RPi5
 U 1 1 592237C1
-P 11150 2500
-F 0 "RPi5" H 11150 2950 50  0000 C CNN
-F 1 "YC248-JR-074K7L" H 11150 2050 50  0000 C CNN
-F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 11150 2500 50  0000 C CNN
-F 3 "" H 11150 2500 50  0000 C CNN
-	1    11150 2500
+P 9500 2500
+F 0 "RPi5" H 9500 2950 50  0000 C CNN
+F 1 "YC248-JR-074K7L" H 9500 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 9500 2500 50  0000 C CNN
+F 3 "" H 9500 2500 50  0000 C CNN
+	1    9500 2500
 	1    0    0    1   
 $EndComp
-Text Label 14100 2500 2    60   ~ 0
+Text Label 10750 2500 2    60   ~ 0
 i4.1
-Text Label 14100 2400 2    60   ~ 0
+Text Label 10750 2400 2    60   ~ 0
 i4.2
-Text Label 14100 2300 2    60   ~ 0
+Text Label 10750 2300 2    60   ~ 0
 i4.3
-Text Label 14100 2200 2    60   ~ 0
+Text Label 10750 2200 2    60   ~ 0
 i4.4
-Text Label 14100 2900 2    60   ~ 0
+Text Label 10750 2900 2    60   ~ 0
 i4.5
-Text Label 14100 2800 2    60   ~ 0
+Text Label 10750 2800 2    60   ~ 0
 i4.6
-Text Label 14100 2700 2    60   ~ 0
+Text Label 10750 2700 2    60   ~ 0
 i4.7
-Text Label 14100 2600 2    60   ~ 0
+Text Label 10750 2600 2    60   ~ 0
 i4.8
-Text Label 14100 1750 2    60   ~ 0
+Text Label 10750 1750 2    60   ~ 0
 i5.1
-Text Label 14100 1650 2    60   ~ 0
+Text Label 10750 1650 2    60   ~ 0
 i5.2
-Text Label 14100 1550 2    60   ~ 0
+Text Label 10750 1550 2    60   ~ 0
 i5.3
-Text Label 14100 1450 2    60   ~ 0
+Text Label 10750 1450 2    60   ~ 0
 i5.4
-Text Label 14100 1350 2    60   ~ 0
+Text Label 10750 1350 2    60   ~ 0
 i5.5
-Text Label 14100 1250 2    60   ~ 0
+Text Label 10750 1250 2    60   ~ 0
 i5.6
-Text Label 14100 1150 2    60   ~ 0
+Text Label 10750 1150 2    60   ~ 0
 i5.7
-Text Label 14100 1050 2    60   ~ 0
+Text Label 10750 1050 2    60   ~ 0
 i5.8
-Text Label 10950 2550 2    60   ~ 0
+Text Label 9300 2550 2    60   ~ 0
 i6.1
-Text Label 10950 2650 2    60   ~ 0
+Text Label 9300 2650 2    60   ~ 0
 i6.2
-Text Label 10950 2750 2    60   ~ 0
+Text Label 9300 2750 2    60   ~ 0
 i6.3
-Text Label 10950 2850 2    60   ~ 0
+Text Label 9300 2850 2    60   ~ 0
 i6.4
-Text Label 10950 2150 2    60   ~ 0
+Text Label 9300 2150 2    60   ~ 0
 i6.5
-Text Label 10950 2250 2    60   ~ 0
+Text Label 9300 2250 2    60   ~ 0
 i6.6
-Text Label 10950 2350 2    60   ~ 0
+Text Label 9300 2350 2    60   ~ 0
 i6.7
-Text Label 10950 2450 2    60   ~ 0
+Text Label 9300 2450 2    60   ~ 0
 i6.8
-Text Label 10950 1050 2    60   ~ 0
+Text Label 9300 1050 2    60   ~ 0
 i7.1
-Text Label 10950 1150 2    60   ~ 0
+Text Label 9300 1150 2    60   ~ 0
 i7.2
-Text Label 10950 1250 2    60   ~ 0
+Text Label 9300 1250 2    60   ~ 0
 i7.3
-Text Label 10950 1350 2    60   ~ 0
+Text Label 9300 1350 2    60   ~ 0
 i7.4
-Text Label 10950 1450 2    60   ~ 0
+Text Label 9300 1450 2    60   ~ 0
 i7.5
-Text Label 10950 1550 2    60   ~ 0
+Text Label 9300 1550 2    60   ~ 0
 i7.6
-Text Label 10950 1650 2    60   ~ 0
+Text Label 9300 1650 2    60   ~ 0
 i7.7
-Text Label 10950 1750 2    60   ~ 0
+Text Label 9300 1750 2    60   ~ 0
 i7.8
 Text Label 2050 4150 2    60   ~ 0
 i7.1
@@ -1500,39 +1500,39 @@ GPIO1_30
 $Comp
 L R_PACK8 RPo0
 U 1 1 59259A75
-P 5550 1400
-F 0 "RPo0" H 5550 1850 50  0000 C CNN
-F 1 "YC248-JR-074K7L" H 5550 950 50  0000 C CNN
-F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 5550 1400 50  0000 C CNN
-F 3 "" H 5550 1400 50  0000 C CNN
-	1    5550 1400
+P 6650 1400
+F 0 "RPo0" H 6650 1850 50  0000 C CNN
+F 1 "YC248-JR-074K7L" H 6650 950 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 6650 1400 50  0000 C CNN
+F 3 "" H 6650 1400 50  0000 C CNN
+	1    6650 1400
 	1    0    0    -1  
 $EndComp
-Text Label 5350 1050 2    60   ~ 0
+Text Label 6450 1050 2    60   ~ 0
 o0.1
-Text Label 5350 1150 2    60   ~ 0
+Text Label 6450 1150 2    60   ~ 0
 o0.2
-Text Label 5350 1250 2    60   ~ 0
+Text Label 6450 1250 2    60   ~ 0
 o0.3
-Text Label 5350 1350 2    60   ~ 0
+Text Label 6450 1350 2    60   ~ 0
 o0.4
-Text Label 5350 1450 2    60   ~ 0
+Text Label 6450 1450 2    60   ~ 0
 o0.5
-Text Label 5350 1550 2    60   ~ 0
+Text Label 6450 1550 2    60   ~ 0
 o0.6
-Text Label 5350 1650 2    60   ~ 0
+Text Label 6450 1650 2    60   ~ 0
 o0.7
-Text Label 5350 1750 2    60   ~ 0
+Text Label 6450 1750 2    60   ~ 0
 o0.8
 $Comp
 L R_PACK8 RPo1
 U 1 1 5925B856
-P 5550 2500
-F 0 "RPo1" H 5550 2950 50  0000 C CNN
-F 1 "YC248-JR-074K7L" H 5550 2050 50  0000 C CNN
-F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 5550 2500 50  0000 C CNN
-F 3 "" H 5550 2500 50  0000 C CNN
-	1    5550 2500
+P 6650 2500
+F 0 "RPo1" H 6650 2950 50  0000 C CNN
+F 1 "YC248-JR-074K7L" H 6650 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_8x0602" H 6650 2500 50  0000 C CNN
+F 3 "" H 6650 2500 50  0000 C CNN
+	1    6650 2500
 	1    0    0    -1  
 $EndComp
 Text Label 7900 1050 2    60   ~ 0
@@ -1562,21 +1562,21 @@ F 3 "" H 8100 1400 50  0000 C CNN
 	1    8100 1400
 	1    0    0    -1  
 $EndComp
-Text Label 5350 2150 2    60   ~ 0
+Text Label 6450 2150 2    60   ~ 0
 o2.1
-Text Label 5350 2250 2    60   ~ 0
+Text Label 6450 2250 2    60   ~ 0
 o2.2
-Text Label 5350 2350 2    60   ~ 0
+Text Label 6450 2350 2    60   ~ 0
 o2.3
-Text Label 5350 2450 2    60   ~ 0
+Text Label 6450 2450 2    60   ~ 0
 o2.4
-Text Label 5350 2550 2    60   ~ 0
+Text Label 6450 2550 2    60   ~ 0
 o2.5
-Text Label 5350 2650 2    60   ~ 0
+Text Label 6450 2650 2    60   ~ 0
 o2.6
-Text Label 5350 2750 2    60   ~ 0
+Text Label 6450 2750 2    60   ~ 0
 o2.7
-Text Label 5350 2850 2    60   ~ 0
+Text Label 6450 2850 2    60   ~ 0
 o2.8
 $Comp
 L R_PACK8 RPo3
@@ -1985,69 +1985,69 @@ Wire Wire Line
 Wire Wire Line
 	5250 11000 5850 11000
 Wire Wire Line
-	14500 1050 15100 1050
+	11150 1050 11750 1050
 Wire Wire Line
-	14500 1150 15100 1150
+	11150 1150 11750 1150
 Wire Wire Line
-	14500 1250 15100 1250
+	11150 1250 11750 1250
 Wire Wire Line
-	14500 1350 15100 1350
+	11150 1350 11750 1350
 Wire Wire Line
-	14500 1450 15100 1450
+	11150 1450 11750 1450
 Wire Wire Line
-	14500 1550 15100 1550
+	11150 1550 11750 1550
 Wire Wire Line
-	14500 1650 15100 1650
+	11150 1650 11750 1650
 Wire Wire Line
-	14500 1750 15100 1750
+	11150 1750 11750 1750
 Wire Wire Line
-	11350 2850 12000 2850
+	9700 2850 10350 2850
 Wire Wire Line
-	11350 2750 12000 2750
+	9700 2750 10350 2750
 Wire Wire Line
-	11350 2650 12000 2650
+	9700 2650 10350 2650
 Wire Wire Line
-	11350 2550 12000 2550
+	9700 2550 10350 2550
 Wire Wire Line
-	11350 2450 12000 2450
+	9700 2450 10350 2450
 Wire Wire Line
-	11350 2350 12000 2350
+	9700 2350 10350 2350
 Wire Wire Line
-	11350 2250 12000 2250
+	9700 2250 10350 2250
 Wire Wire Line
-	11350 2150 12000 2150
+	9700 2150 10350 2150
 Wire Wire Line
-	11350 1750 12000 1750
+	9700 1750 10350 1750
 Wire Wire Line
-	11350 1650 12000 1650
+	9700 1650 10350 1650
 Wire Wire Line
-	11350 1550 12000 1550
+	9700 1550 10350 1550
 Wire Wire Line
-	11350 1450 12000 1450
+	9700 1450 10350 1450
 Wire Wire Line
-	11350 1350 12000 1350
+	9700 1350 10350 1350
 Wire Wire Line
-	11350 1250 12000 1250
+	9700 1250 10350 1250
 Wire Wire Line
-	11350 1150 12000 1150
+	9700 1150 10350 1150
 Wire Wire Line
-	11350 1050 12000 1050
+	9700 1050 10350 1050
 Wire Wire Line
-	5750 1350 6400 1350
+	6850 1350 7500 1350
 Wire Wire Line
-	5750 1250 6400 1250
+	6850 1250 7500 1250
 Wire Wire Line
-	5750 1150 6400 1150
+	6850 1150 7500 1150
 Wire Wire Line
-	5750 1050 6400 1050
+	6850 1050 7500 1050
 Wire Wire Line
-	5750 2450 6400 2450
+	6850 2450 7500 2450
 Wire Wire Line
-	5750 2350 6400 2350
+	6850 2350 7500 2350
 Wire Wire Line
-	5750 2250 6400 2250
+	6850 2250 7500 2250
 Wire Wire Line
-	5750 2150 6400 2150
+	6850 2150 7500 2150
 Wire Wire Line
 	8300 1750 8950 1750
 Wire Wire Line
@@ -2307,54 +2307,54 @@ Connection ~ 12950 8400
 Wire Wire Line
 	3850 8500 3850 8600
 Connection ~ 3850 8600
-Connection ~ 5900 1050
-Connection ~ 5900 1150
-Connection ~ 5900 1250
-Connection ~ 5900 1350
-Connection ~ 5900 1450
-Connection ~ 5900 1550
-Connection ~ 5900 1650
-Connection ~ 5900 1750
-Connection ~ 5900 2150
-Connection ~ 5900 2250
-Connection ~ 5900 2350
-Connection ~ 5900 2450
-Connection ~ 5900 2550
-Connection ~ 5900 2650
-Connection ~ 5900 2750
-Connection ~ 5900 2850
-Connection ~ 14600 1050
-Connection ~ 14600 1150
-Connection ~ 14600 1250
-Connection ~ 14600 1350
-Connection ~ 14600 1450
-Connection ~ 14600 1550
-Connection ~ 14600 1650
-Connection ~ 14600 1750
-Connection ~ 14600 2200
-Connection ~ 14600 2300
-Connection ~ 14600 2400
-Connection ~ 14600 2500
-Connection ~ 14600 2600
-Connection ~ 14600 2700
-Connection ~ 14600 2800
-Connection ~ 14600 2900
-Connection ~ 11500 2850
-Connection ~ 11500 2750
-Connection ~ 11500 2650
-Connection ~ 11500 2550
-Connection ~ 11500 2450
-Connection ~ 11500 2350
-Connection ~ 11500 2250
-Connection ~ 11500 2150
-Connection ~ 11500 1750
-Connection ~ 11500 1650
-Connection ~ 11500 1550
-Connection ~ 11500 1450
-Connection ~ 11500 1350
-Connection ~ 11500 1250
-Connection ~ 11500 1150
-Connection ~ 11500 1050
+Connection ~ 7000 1050
+Connection ~ 7000 1150
+Connection ~ 7000 1250
+Connection ~ 7000 1350
+Connection ~ 7000 1450
+Connection ~ 7000 1550
+Connection ~ 7000 1650
+Connection ~ 7000 1750
+Connection ~ 7000 2150
+Connection ~ 7000 2250
+Connection ~ 7000 2350
+Connection ~ 7000 2450
+Connection ~ 7000 2550
+Connection ~ 7000 2650
+Connection ~ 7000 2750
+Connection ~ 7000 2850
+Connection ~ 11250 1050
+Connection ~ 11250 1150
+Connection ~ 11250 1250
+Connection ~ 11250 1350
+Connection ~ 11250 1450
+Connection ~ 11250 1550
+Connection ~ 11250 1650
+Connection ~ 11250 1750
+Connection ~ 11250 2200
+Connection ~ 11250 2300
+Connection ~ 11250 2400
+Connection ~ 11250 2500
+Connection ~ 11250 2600
+Connection ~ 11250 2700
+Connection ~ 11250 2800
+Connection ~ 11250 2900
+Connection ~ 9850 2850
+Connection ~ 9850 2750
+Connection ~ 9850 2650
+Connection ~ 9850 2550
+Connection ~ 9850 2450
+Connection ~ 9850 2350
+Connection ~ 9850 2250
+Connection ~ 9850 2150
+Connection ~ 9850 1750
+Connection ~ 9850 1650
+Connection ~ 9850 1550
+Connection ~ 9850 1450
+Connection ~ 9850 1350
+Connection ~ 9850 1250
+Connection ~ 9850 1150
+Connection ~ 9850 1050
 Connection ~ 8450 1050
 Connection ~ 8450 1150
 Connection ~ 8450 1250
@@ -2372,21 +2372,21 @@ Connection ~ 8450 2650
 Connection ~ 8450 2750
 Connection ~ 8450 2850
 Wire Wire Line
-	5750 2550 6400 2550
+	6850 2550 7500 2550
 Wire Wire Line
-	5750 2650 6400 2650
+	6850 2650 7500 2650
 Wire Wire Line
-	5750 2750 6400 2750
+	6850 2750 7500 2750
 Wire Wire Line
-	5750 2850 6400 2850
+	6850 2850 7500 2850
 Wire Wire Line
-	5750 1450 6400 1450
+	6850 1450 7500 1450
 Wire Wire Line
-	5750 1550 6400 1550
+	6850 1550 7500 1550
 Wire Wire Line
-	5750 1650 6400 1650
+	6850 1650 7500 1650
 Wire Wire Line
-	5750 1750 6400 1750
+	6850 1750 7500 1750
 Wire Wire Line
 	9850 9850 9850 10200
 Wire Wire Line
@@ -2406,19 +2406,19 @@ Wire Wire Line
 Wire Wire Line
 	10950 9200 10950 9450
 Wire Wire Line
-	14500 2400 15100 2400
+	11150 2400 11750 2400
 Wire Wire Line
-	14500 2300 15100 2300
+	11150 2300 11750 2300
 Wire Wire Line
-	14500 2200 15100 2200
+	11150 2200 11750 2200
 Wire Wire Line
-	14500 2500 15100 2500
+	11150 2500 11750 2500
 Wire Wire Line
-	14500 2600 15100 2600
+	11150 2600 11750 2600
 Wire Wire Line
-	14500 2700 15100 2700
+	11150 2700 11750 2700
 Wire Wire Line
-	14500 2800 15100 2800
+	11150 2800 11750 2800
 Wire Wire Line
-	14500 2900 15100 2900
+	11150 2900 11750 2900
 $EndSCHEMATC

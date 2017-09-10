@@ -1,0 +1,37 @@
+# Description:
+# Author: Damian Machtey
+#
+# Created: Sat Sep  9 12:22:26 2017 (-0300)
+#
+# Last-Updated: Sat Sep  9 12:24:07 2017 (-0300)
+#           By: Damian Machtey
+#
+#
+
+
+* some problems found on the board as [2017-09-09 Sat]
+
+root@beaglebone:~/ndom-bbb/board-test# ./board-test.py
+  i0 i1 i2 i3
+0  0  0  0  0
+1  0  0  0  0
+2  1  0  0  0
+3  1  1  0  0
+4  1  1  0  0
+5  1  0  0  0
+6  0  0  0  0
+7  0  0  0  0
+
+  a0 a1 a2 a3
+0  0  0  0  0
+1  0  0  0  0
+2  0  0  0  0
+3  0  0  0  0
+4  0  0  0  0
+5  0  0  0  0
+6  0  0  0  0
+7  0  0  0  0
+
+as shown above some inputs remain high when nothing is connected, not
+even the cape. It looks like the pull-down resistor is not working for
+some pins

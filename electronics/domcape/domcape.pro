@@ -1,4 +1,4 @@
-update=Wed 24 May 2017 11:03:27 ART
+update=Thu 07 Sep 2017 15:23:24 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -56,6 +56,8 @@ LibName26=siliconi
 LibName27=opto
 LibName28=atmel
 LibName29=contrib
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -66,5 +68,3 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1

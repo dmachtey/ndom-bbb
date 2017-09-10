@@ -7,9 +7,9 @@
 ##
 ## Created: Fri Sep  8 16:55:27 2017 (-0300)
 ##
-## Last-Updated: Fri Sep  8 18:19:31 2017 (-0300)
+## Last-Updated: Sun Sep 10 10:56:35 2017 (-0300)
 ##           By: Damian Machtey
-##     Update #: 19
+##     Update #: 79
 ##
 ### Change Log:
 ##
@@ -37,52 +37,67 @@
 ##
 ### Code:
 
-
 out = "out"
-in = "in"
+ins = "in"
 
 class GPIO:
     def __init__(self, gpio, direction):
-        self.gpio = gpio
-        f = open("/sys/class/gpio/export", 'w')
-        r = f.write(gpio)
-        f.close()
+        self.gpio = str(gpio)
+        try:
+            f = open("/sys/class/gpio/export", 'w')
+            r = f.write(self.gpio)
+            f.close()
+            self.direc(direction)
+        except:
+            pass
 
-        self.direc(direction)
-
-    def direc(self, direction)
-        if direction == in:
-            f = open("/sys/class/gpio/gpio" + str(gpio) + "/direction", 'w')
-            f.write(in)
+    def direc(self, direction):
+        if direction == ins:
+            f = open("/sys/class/gpio/gpio" + self.gpio + "/direction", 'w')
+            f.write(ins)
             f.close()
 
         if direction == out:
-            f = open("/sys/class/gpio/gpio" + str(gpio) + "/direction", 'w')
+            f = open("/sys/class/gpio/gpio" + self.gpio + "/direction", 'w')
             f.write(out)
             f.close()
 
-    def get(self)
-        f = open("/sys/class/gpio/gpio" + str(gpio) + "/value", 'r')
+    def get(self):
+        f = open("/sys/class/gpio/gpio" + self.gpio + "/value", 'r')
         r = f.read()
         f.close()
-        return r
+        return str(r).rstrip()
 
-    def set(self)
-        f = open("/sys/class/gpio/gpio" + str(gpio) + "/value", 'w')
+    def set(self):
+        f = open("/sys/class/gpio/gpio" + self.gpio + "/value", 'w')
         f.write('1')
         f.close()
 
-    def clear(self)
-        f = open("/sys/class/gpio/gpio" + str(gpio) + "/value", 'w')
+    def clear(self):
+        f = open("/sys/class/gpio/gpio" + gpio + "/value", 'w')
         f.write('0')
         f.close()
 
+    # destructor
+    def __del__(self):
+        try:
+            f = open("/sys/class/gpio/unexport", 'w')
+            r = f.write(self.gpio)
+            f.close()
+        except:
+            pass
 
+def PrintALL(ins,outs):
 
-def readALL(gpios):
+    print("  o0 o1 o2 o3        i0 i1 i2 i3")
 
-
-
+    for j in range(8):
+        print(j, end="  ")
+        [print(outs[i+j].get(), end="  ")for i in range(0,25,8)]
+        print("     ", end="  ")
+        [print(ins[i+j].get(), end="  ")for i in range(0,25,8)]
+        print()
+    print()
 
 
 IN = [46, 65, 63, 37, 36, 32, 86, 87, 89, 88, 61, 33, 62, 22, 27,
@@ -98,23 +113,23 @@ BoardEn = [111]
 
 gpioIN = []
 gpioOUT = []
-gpioEn = GPIO(BoardEn, out)
+gpioEn = GPIO(BoardEn[0], out)
 gpioEn.set()
 
 
 for i in IN:
-    gpioIN.append(GPIO(i, in))
+    gpioIN.append(GPIO(i, ins))
 
 
 for i in OUT:
     gpioOUT.append(GPIO(i, out))
 
 
+PrintALL(gpioIN,gpioOUT)
 
-
-
-
-
-
+## cleanup
+# del gpioIN
+# del gpioOUT
+# del gpioEn
 ######################################################################
 ### board-test.py ends here
